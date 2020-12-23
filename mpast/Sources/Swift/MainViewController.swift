@@ -25,6 +25,6 @@ import UIKit
     }
     
     @objc func touchBegin() {
-            print("用户点击了按钮")
+        print("用户点击了按钮")
     }
 }
