@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>enable</key>
+	<true/>
+	<key>plugins</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>离线包中心</string>
+			<key>icon</key>
+			<string>MDH_h5appcenter</string>
+			<key>desc</key>
+			<string>离线包中心</string>
+			<key>class</key>
+			<string>MDHNebulaPlugin</string>
+			<key>module</key>
+			<string>mPaaS 工具</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>诊断工具</string>
+			<key>icon</key>
+			<string>MDH_default</string>
+			<key>desc</key>
+			<string>诊断工具</string>
+			<key>class</key>
+			<string>mPaaSDiagnosePlugin</string>
+			<key>module</key>
+			<string>诊断工具</string>
+		</dict>
+	</array>
+	<key>initiatePlugins</key>
+	<array>
+		<dict>
+			<key>desc</key>
+			<string>启动时即可加载的插件</string>
+			<key>class</key>
+			<string>MPStartPlugin</string>
+		</dict>
+		<dict>
+			<key>desc</key>
+			<string>启动时即可加载的插件</string>
+			<key>class</key>
+			<string>mPaaSDiagnoseStartPlugin</string>
+		</dict>
+	</array>
+</dict>
+</plist>

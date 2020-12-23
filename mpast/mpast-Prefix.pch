@@ -1,0 +1,20 @@
+//
+//  mpast-Prefix.pch
+//  mpast
+//
+//  Created by zhouhong on 2020/12/21.
+//  Copyright © 2020 Alibaba. All rights reserved.
+//
+
+#ifndef mpast_Prefix_pch
+#define mpast_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "mpast-mPaaS-Headers.h"
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+
+#endif /* mpast_Prefix_pch */

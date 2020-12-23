@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StageDesc</key>
+	<dict>
+		<key>userConfig</key>
+		<string>用户设置</string>
+		<key>urgentStage</key>
+		<string>接龙口令</string>
+		<key>groupStage</key>
+		<string>建群首页</string>
+		<key>h5Stage</key>
+		<string>H5容器展台</string>
+		<key>indexStage</key>
+		<string>首页</string>
+		<key>normalStage1</key>
+		<string>安全相关展台1</string>
+		<key>userInfo</key>
+		<string>用户信息</string>
+		<key>topAppStage</key>
+		<string>置顶应用展台</string>
+		<key>contactStage</key>
+		<string>联系人</string>
+		<key>fastStage1</key>
+		<string>安全相关展台</string>
+		<key>strategyStage</key>
+		<string>战略位</string>
+		<key>global</key>
+		<string>全局搜索</string>
+		<key>contactGroup</key>
+		<string>群展台</string>
+		<key>publicStage</key>
+		<string>公共展台</string>
+		<key>marketStage</key>
+		<string>应用市场</string>
+		<key>WealthHome</key>
+		<string>财富首页</string>
+		<key>security_center_main</key>
+		<string>安全中心首页</string>
+		<key>security_application</key>
+		<string>安全保护工具展台</string>
+		<key>socialContact</key>
+		<string>通讯录展台</string>
+		<key>chatRoomGroup</key>
+		<string>聊天室展台</string>
+		<key>PublicPlatform</key>
+		<string>服务窗展台</string>
+	</dict>
+</dict>
+</plist>

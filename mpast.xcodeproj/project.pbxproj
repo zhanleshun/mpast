@@ -1,0 +1,1419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A92665CB3DE0B85F06DB7E /* NebulaTinyapp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D9646C25CD5D5435E87C382 /* NebulaTinyapp.bundle */; };
+		00BA71A210E5C0794071BBB0 /* NebulaHeader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F42AF84BDDE7F6D795E5C97 /* NebulaHeader.framework */; };
+		00F449A9473E307F4855C256 /* TianYan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1ED35649C187AC9097407E /* TianYan.framework */; };
+		0274E6E46572729552A8AF5A /* MPNebulaAdapter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE0482ED6A0361D752A167CC /* MPNebulaAdapter.bundle */; };
+		02AA5578B569397AD0080F1C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA22A59202D2579BE14BEEC /* AssetsLibrary.framework */; };
+		034C9A8CBDD19EF7128547E4 /* TBScanSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1936C4E9BCC8C8DC266096F7 /* TBScanSDK.bundle */; };
+		0403626A43CCDFF20136D2D6 /* BEEAudioUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11C149F095EBB28072D6003 /* BEEAudioUtil.framework */; };
+		0472609CEF1A407BC6C6140C /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17388192452462CF9785FD1 /* CoreAudio.framework */; };
+		06B7B38EB8F7294913D04B0F /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF78BDBB2EABDB3156D93238 /* ReplayKit.framework */; };
+		0854AA9BF4D411264A73D128 /* MPDynamicAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D86700C5CBE33C8658483B /* MPDynamicAdapter.framework */; };
+		097137633474CBA80E487DCB /* APCommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269E204068038FB7E9D9005B /* APCommonUI.framework */; };
+		0DEA1A09D01065D9A1AE168A /* BeePhoto.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 96CA9F03501ADD4A6A56531D /* BeePhoto.bundle */; };
+		0E2A0086A9D9C3F5005F96BA /* MobileRuntime.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92A599D0901A41FA5FF20172 /* MobileRuntime.plist */; };
+		1009B59E5149D0AF12FF75A7 /* APConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC649AEC757341AAA2A7A2D3 /* APConfig.framework */; };
+		10CA0C0CB3B6501E1AA52CEB /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F26DBC89661B15C190E5C0 /* ContactsUI.framework */; };
+		17B1A9D331E7C407FB420183 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E6AFE3E5A13DE31AD2A79F /* AddressBook.framework */; };
+		18CCA64CD871C6D34BE65671 /* APMLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B10D052E584C2ACDDEA0F2 /* APMLogging.framework */; };
+		1918437D9275D1F9346E5500 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4EB10A37CD183618F36099DD /* AMap.bundle */; };
+		1939FF6DD9EFB626F227D28E /* Nebula.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECD02C51BEDA7B755CD4C05 /* Nebula.framework */; };
+		1962FB7C775D5A330F7D0115 /* Webkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688D6B6429F05F80BA0D6F1E /* Webkit.framework */; };
+		1A1657A02F1C2F2AC1781A7A /* AOMPDevice.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D79B38F99747D0914F9A8F3 /* AOMPDevice.bundle */; };
+		1AC9B2BDE3ADE31054CA527F /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9138BB8C80CED84D6BB23AD /* SDWebImage.framework */; };
+		1B64123443053B11FD1A8938 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300A5598C49EC1E405D22474 /* Photos.framework */; };
+		1D70432CECA23A15912F1C97 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9FA397D49A0D68EC039D45 /* Security.framework */; };
+		1E68BBDF8682710CC91C6653 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8AA162EF1C1834DE398ED3 /* UIKit.framework */; };
+		1F811106B5BC4F184D3F3C15 /* TinyAppCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35646B783CB3586CEB501EB /* TinyAppCommon.framework */; };
+		1FA8360598C512D982D31E72 /* NebulaSecurity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99A6377095816D41083FF39 /* NebulaSecurity.framework */; };
+		1FECBC5033AA2F491BF2C18E /* APMCDNImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E93C04DEA320CC6E47EDBD /* APMCDNImage.framework */; };
+		2059745A7391A9A1B67A524B /* APMobileNetwork.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0439E6D97DF944C0ABA59656 /* APMobileNetwork.bundle */; };
+		21303436D4D765372E207F38 /* MPDevHelper.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC1C9F111E4A2EA5C8091D0D /* MPDevHelper.bundle */; };
+		217B42795DF897B905E8550B /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5ECF0C4296C5855B880CEF /* QuickLook.framework */; };
+		21BDDA8A92974AC3D8086E97 /* AppDoctor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D512EE8B9244DC3CF15815C /* AppDoctor.framework */; };
+		22F7096FE297EEB77B7168A4 /* NebulamPaaSBiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D895600988484653694091DB /* NebulamPaaSBiz.framework */; };
+		23E0B0F2B4D4B5A037EB8D45 /* APLongLinkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386843E7AAA28A9A93DAE711 /* APLongLinkService.framework */; };
+		247795825F4BA15AD2B12209 /* APMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2ABF77B8F9B2FE6302F0EBA9 /* APMap.bundle */; };
+		260088C3DFB6EA571A0FDFB4 /* APSecurityUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AF04A22A7CD0913D9E8C7D /* APSecurityUtility.framework */; };
+		265381CD67D0F1C25777A061 /* MPPerformance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1AC478CD3EC74AF258D9FC /* MPPerformance.framework */; };
+		275BCDAAB89B64D62C50A047 /* MPComponentDiagnose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F57878FCC1AADB1B127591 /* MPComponentDiagnose.framework */; };
+		2ACB6208F8719FB9BB3472F6 /* TBScanSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB65B6DF2468783C48332C0E /* TBScanSDK.framework */; };
+		2C47AB306ACEADFF99AEBBCB /* MPDiagnosis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC9D8CAA0C1FD03E78EE295 /* MPDiagnosis.framework */; };
+		2D115B20E3F9F88B003352B3 /* APMobileFramework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6624D2E47C1E9AB28D36F4C5 /* APMobileFramework.bundle */; };
+		2D14CCC443A1DB7D9D9AC614 /* NebulaConfig.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E170ADCB98760708E93D97A7 /* NebulaConfig.bundle */; };
+		2DB4AF01DFE7BBC18876D701 /* MPInternalPresetApps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 817DB744C3C4A47A4C20A1ED /* MPInternalPresetApps.bundle */; };
+		2E302D84C0DF462DDA2D6970 /* AOMPDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8299AFE2A7F72EF84971EC /* AOMPDevice.framework */; };
+		2EB2F351FD8CBA6D44EF1CCF /* ARTVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5017782E56C0442829EA0FC6 /* ARTVC.framework */; };
+		313D8B679A2D0CE5950AA9B3 /* BeePhoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11A1EA7859689D12CEB0359 /* BeePhoto.framework */; };
+		321206E021B2D9FDE508378A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDCA6D67D6B3EED8D42A92A /* Accelerate.framework */; };
+		3397772ED827975A28F03498 /* APMultimedia.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F406E98FE818F39F5FD24AC8 /* APMultimedia.bundle */; };
+		33AB4AD83926BF0C12056DBF /* MPLauncherAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F48B636CD25179312B57D2 /* MPLauncherAppDelegate.m */; };
+		344E334250CD64E0A410DB36 /* MPMssAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5703A3C1405C76C7797712F0 /* MPMssAdapter.framework */; };
+		3486A90D82668F5F167AE042 /* APMobileFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9478FCBB22D228926FF02142 /* APMobileFramework.framework */; };
+		34D5418094CD84FCCCA7E51A /* APMImageProcessing.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3AF27273E15E0B3502394055 /* APMImageProcessing.bundle */; };
+		376E107B89599274674F31D0 /* APRemoteLogging.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24987F6E52219C099CD504BD /* APRemoteLogging.bundle */; };
+		385AB4D96ABDD086B7F12529 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A1AE7FDBD2216AC6445132 /* MAMapKit.framework */; };
+		3AE7FAEC4999A26529470CE0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635A320E0928AD000368590F /* MapKit.framework */; };
+		3B0077C3542F5FA91D50465D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863CAAF6F6E756D3CDD5AC34 /* CoreLocation.framework */; };
+		3B1B5E7CA1BEB959A16C5A61 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0834C4E093472885CFE1D78E /* EventKit.framework */; };
+		3B35B6B439D0BF68E0AF76B2 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 521E002BB7C1FE1B2604292C /* WeiboSDK.bundle */; };
+		3F6B34FA7BEEC0E508796AEA /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3220AE8F8B920CA7A2DCD04 /* JavaScriptCore.framework */; };
+		3F86168F68B05E97F86E2FA6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA73DE8732818DBA11EF15B /* WebKit.framework */; };
+		4128E0069D4396EB880618ED /* APMCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5353C54EF4A0595FAE12AAAA /* APMCache.framework */; };
+		425563DC24551462280D1352 /* MPScanCodeAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18A2044B0DAD5630B76B473 /* MPScanCodeAdapter.framework */; };
+		43BA2DEED02AD3E62FF07EDA /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E3C983D78060298BC37BFF /* CoreBluetooth.framework */; };
+		458BDC6759A84CC5D3C7D24E /* BEEAudioUtil.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 377931B626E5A3EB961E6B9D /* BEEAudioUtil.bundle */; };
+		475EA51A88508A5E50749F3F /* mPaas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8BDE44713493E1A280C213 /* mPaas.framework */; };
+		47629C3DFC6CE330CB4E329A /* MPMgsAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD9AAAD41D8001909E2EF13 /* MPMgsAdapter.framework */; };
+		4B0C6CB17AFDC77A6E7305FA /* TinyAppCommon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD4DAD86FA2D960F5DCA49D8 /* TinyAppCommon.bundle */; };
+		4B72BAE87D97A13563222D28 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22190160F141C15927F93C46 /* AMapSearchKit.framework */; };
+		4CE1BA4CABD82A7667AE7563 /* APOpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8CDFCB2299658240F69002 /* APOpenSSL.framework */; };
+		4D19C8D525909F1500AA03AC /* SecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19C8D425909F1500AA03AC /* SecViewController.swift */; };
+		51E4D1DF3CCBBB696019E991 /* DynamicDeployment.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 66FDEA5E3B77D33A15DCDB22 /* DynamicDeployment.bundle */; };
+		528759DF00F49D18E753E61C /* BeePhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36A28D3D99E8F482387F7754 /* BeePhotoBrowser.bundle */; };
+		56165C452DDE3C070C9D28DF /* MPHotpatchSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB52F5B25D006C7A18DF810 /* MPHotpatchSDK.framework */; };
+		57D634752F9CBF62994A241F /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B81609392A0BFB5B226A59E1 /* VideoToolbox.framework */; };
+		591A88499FE94D74E7865FC3 /* NebulaPoseidon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C6F1E30AF61EE7D33F6794A2 /* NebulaPoseidon.bundle */; };
+		59C439EFBCA05643140F547B /* NebulaAppManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1119EB9CAAB0616264238B0B /* NebulaAppManager.bundle */; };
+		5A18412F30B59B42C6E89A9D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA5F5BF323FDB0C5B556ECC /* MobileCoreServices.framework */; };
+		5ACAF879353629E6ABE23F70 /* DTFrameworkInterface+mpast.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA7631367597258434C5322 /* DTFrameworkInterface+mpast.m */; };
+		5BE8B630A01560425DBE25BE /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD3CCD44726F429E3A88D94 /* Lottie.framework */; };
+		5E442D2E6EF4254426BEEA1D /* Texel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8E93E321AFF937155A9C6812 /* Texel.bundle */; };
+		5F2F33694E14B2472E7EE21D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46E084C3EBA57F73461BCE7 /* MediaPlayer.framework */; };
+		60202736516757AFA8C12DCF /* SGMain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9419FD2790D0FDD449F85267 /* SGMain.framework */; };
+		605EEBC89BA646A60349FCCD /* MASSProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D540BB119FDE12955217049 /* MASSProxy.framework */; };
+		631082F91426C176CF006345 /* MPMasAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 903FB61AD5CC6D3DF91F5476 /* MPMasAdapter.framework */; };
+		638AB7A2612E7751DBD9A0DB /* BeePhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8CCD44DF6398F600A179EC05 /* BeePhotoPicker.bundle */; };
+		63C4F6B55C54E393C5E6A37B /* APMImageProcessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D3CB2504590B763D789CC1 /* APMImageProcessing.framework */; };
+		64C13C3B99421C7D025458E0 /* TinyappService.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 16DF752F67E16C086D137F68 /* TinyappService.bundle */; };
+		65682DA1C31457CCC11265F6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37565272C63B32E9F05EBD79 /* SystemConfiguration.framework */; };
+		669E9631107E49FB0B588B87 /* APCommonUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 08B4108B474E84618D400862 /* APCommonUI.bundle */; };
+		672654F1BE7F2C82E7393F81 /* APMobileLBS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C48B92241D602ABAD29D387 /* APMobileLBS.framework */; };
+		69061382FECBFB80C100ADA8 /* MPaaSInterface+mpast.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D6456BD41B9C0FD62018 /* MPaaSInterface+mpast.m */; };
+		6B0F2C37210C591DE750F50A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1912A935F62A4D05A6737CD6 /* OpenGLES.framework */; };
+		6B90D06C6266D46F3A5AE465 /* NebulaBiz.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 21C9A80E003E2F85730847EE /* NebulaBiz.bundle */; };
+		6CAC44873479A12FEFF40727 /* AntUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6322721DB9A6FE886C9ABD0C /* AntUI.framework */; };
+		6CE4D5966DC820AE8CBFAD36 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37293D147B56945D922B68FC /* AddressBookUI.framework */; };
+		6D1233A90BB9B11426DB7050 /* NebulaPoseidon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2725BC4F52152C0C720693A /* NebulaPoseidon.framework */; };
+		6D6214DD40225421993E984B /* TTTAttributedLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACD512D2D8C3B6E6B9A22C8 /* TTTAttributedLabel.framework */; };
+		70FE84122F8756924FCD255B /* MPLBSAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6CCEEAC8B525FA1C17515E /* MPLBSAdapter.framework */; };
+		727736379F731087731FCC82 /* NebulaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB91877C2597B228E4CC2106 /* NebulaSDK.framework */; };
+		7294152CBEE6C46AC5F64825 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCED4A6DD12235D77A1BEC0 /* AVFoundation.framework */; };
+		72BA882215CD73C230AB0ADF /* NebulaConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCFD8772364FFFE45F61DBC /* NebulaConfig.framework */; };
+		730CE3FD0D250ABB9011C43E /* BeeCityPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B0B15F8004749B8F06B9E90 /* BeeCityPicker.framework */; };
+		7442B2B945356D2885135784 /* BeeCityPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2111EDDFA4A0A5B1C7189B1A /* BeeCityPicker.bundle */; };
+		7564CB19EADEB8F006253718 /* BeeMediaPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FDE1BC623C5790A9611520BB /* BeeMediaPlayer.bundle */; };
+		78F19EC2F9C389D93418BA9B /* SecurityGuardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A98A39C97F4F9E00FBCB1F3 /* SecurityGuardSDK.framework */; };
+		795E0C051B6D87393CF432FE /* MPInternalPlugins.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B9C3BB6F99A317F25E521DA /* MPInternalPlugins.bundle */; };
+		7AD60D464C9D698CB4BC53B7 /* APProtocolBuffers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7624D0B0F120C36F58F5EB0A /* APProtocolBuffers.framework */; };
+		7EF0A19EE3A9EBF68827F8E8 /* MPTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED00532CD848B048BD77A9F /* MPTabBarViewController.m */; };
+		839653DEE2B15645B8294B3D /* TinyappService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C1504AB79A0A83242BC037C /* TinyappService.framework */; };
+		84FD15F092086982785D7BF8 /* NebulaBiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093721C466D4DB47C2F47C12 /* NebulaBiz.framework */; };
+		85C34085C57FC39194FDFA6B /* UTDID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 766C00BCDC5313B10BB908AD /* UTDID.framework */; };
+		87348EDB46117EC060B7C773 /* AppDoctor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F4B57753AB824C03D76FAE7B /* AppDoctor.bundle */; };
+		879CE3940790F755E98BE59A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 273C4CBDF6F41D4FFAE9770A /* GLKit.framework */; };
+		88C1DE9FA278470C26AD3F53 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F9D4FE27ECE83C887686F4 /* NetworkExtension.framework */; };
+		8913E2AD072D658814FE92A2 /* MPComponentDiagnose.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5FC4844DE307B5FD96351AB2 /* MPComponentDiagnose.bundle */; };
+		8939CD21864D411674017395 /* MPMpaaSService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D683A9EAE9314702A9DBB4BB /* MPMpaaSService.framework */; };
+		8F61A201080E5B9E4DC6CEB2 /* NebulaSDKPlugins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5478B35B004566C99B0730DE /* NebulaSDKPlugins.framework */; };
+		9006BB29C11810C1388C9C86 /* APMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3855605D024A83893B4660 /* APMap.framework */; };
+		97C4D8E86BE7AF855BDF7A06 /* NebulaNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F1CCFA27DD5EA0398FDD6E /* NebulaNetwork.framework */; };
+		9910E749284CA1C0FAF6038C /* NebulaSDKPlugins.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DBB02E427F6F42894CD77E5F /* NebulaSDKPlugins.bundle */; };
+		9A730F48B8E914FAABB050B1 /* NebulaAppBiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26540E07A861978564DA7235 /* NebulaAppBiz.framework */; };
+		9AA5DB71FFE4BC8810DECD96 /* NebulaSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B28CF25D42C4FD90799D98A2 /* NebulaSDK.bundle */; };
+		9CD2C80087E8C50D28120D06 /* AudioToolBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1C73C612B3E896DDDEE3FF /* AudioToolBox.framework */; };
+		9CD4CCC8138DE45BA472460C /* MPShareKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E4ACF31B9D0917FAD5B553BD /* MPShareKit.bundle */; };
+		A267E05ABC46A6A4AEC3EE82 /* NebulaTinyapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9741F12ADE6D6FE86CD7FAD /* NebulaTinyapp.framework */; };
+		A378101851A8C47B58AA9D99 /* NebulaKernel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 54AF3144DA8982CAC2B12B2C /* NebulaKernel.bundle */; };
+		A37F71E7F39D6442825BE11A /* NebulaAppManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E20654FD77C308EC80AE2CC /* NebulaAppManager.framework */; };
+		A4FD26C9BFB7F0053C86DB83 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69FAFF061E0C7173660EECD5 /* Contacts.framework */; };
+		A7C52F91C611B9F9E436BFC6 /* APMTaskManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A9A8D46F01618CE1A7E2BC /* APMTaskManager.framework */; };
+		A7DEC480B4F340D388376670 /* BeeCapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42C1D8C6800BFB3B7D442C4 /* BeeCapture.framework */; };
+		A802B24DA12BB61069C7981F /* APWebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61CC774065C531DDFD0F09B /* APWebP.framework */; };
+		AA22BD0A17FE9E29D621AD3D /* APMAudioProcessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7026937D524C1B871921E9F0 /* APMAudioProcessing.framework */; };
+		AB2D1A0DABFF9C9EB19E5BCD /* yw_1222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C6659D51B1D7CBB97D4C91F /* yw_1222.jpg */; };
+		ABED8873C4196D371D175BA9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107B81956A271B791C48F10C /* CoreMedia.framework */; };
+		AC0B9AE0912664FC0B6C3636 /* MPDataCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7D396124A86077A59F14AA /* MPDataCenter.framework */; };
+		AC7B12BC7A6907F5C269A896 /* MPDevHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF75DF0E8A3B20C395863B0 /* MPDevHelper.framework */; };
+		AE1C6F3146E5F77C8AFA770E /* NebulaLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F30588ADEBED1C4E272361 /* NebulaLogging.framework */; };
+		B2CACB1E57AA33F870B8ED83 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEFAAA2697BA707123FB75C /* MessageUI.framework */; };
+		B45560B3AA4864FCA7D56860 /* TTTAttributedLabel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 597FB4A97563B44BF8E2B94F /* TTTAttributedLabel.bundle */; };
+		B49EB061D863516D6A96DE72 /* MPShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5513D9D16006BDC554C34C6A /* MPShareKit.framework */; };
+		B4DB6BBE911948252D0093CD /* MPBaseTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAB6116291913EF6C335AC2 /* MPBaseTest.framework */; };
+		B553934E1D891BB058B5C937 /* AOMPFileManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D95FC6740CE1BB267016ED /* AOMPFileManager.framework */; };
+		B598DB9E4718A1551B791F5A /* APLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47873173A4E64865FB2B5AEB /* APLog.framework */; };
+		C065B0F08514579C15050334 /* APBLESDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED35DD362EB6447F32C6C8A /* APBLESDK.framework */; };
+		C1F49420EA33FA8CD46EC539 /* BeePhotoPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A76DD24131211DB0241F2C /* BeePhotoPicker.framework */; };
+		C32BFF0485A2544B8F530060 /* TBDecodeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8033E33BC085D0B6E2F770BD /* TBDecodeSDK.framework */; };
+		C616CA94A14C07DF4B8A7D2C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D22401DBE93AD9CC261BBA /* CoreMotion.framework */; };
+		C7E291905B9F9E7C0D49F004 /* BeeMediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82FE486C3981E637B615A013 /* BeeMediaPlayer.framework */; };
+		C7EE20AE2793F3F8D664A77E /* MPNebulaAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52784F780C2880288F4501C /* MPNebulaAdapter.framework */; };
+		C8589447F2C936C16C78BD6F /* NebulaLogging.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CDD3F1285DC8525C06FB7915 /* NebulaLogging.bundle */; };
+		CAAE5C61BCD637B381426E20 /* meta.config in Resources */ = {isa = PBXBuildFile; fileRef = 960C19BD826A075B7E8812C4 /* meta.config */; };
+		CBB4530401BA78B06F0F0EBC /* AutoTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB7615053180D8C4C7AD89B /* AutoTracker.framework */; };
+		CC4DA152F0543957D97CC93C /* SPMTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CE23AA916CF9767AC94754 /* SPMTracker.framework */; };
+		CCC9235AC7314C339F142892 /* APMCDNImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F2DC4BFACD9AB417B80AA06B /* APMCDNImage.bundle */; };
+		D67AD78E9B150BE89112A189 /* APMBeauty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB65695462866C45A29F5A7 /* APMBeauty.framework */; };
+		D70457E95832884AB0FB140D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD971964AA7A047E6B4BF71 /* ImageIO.framework */; };
+		D71AEE28821EB2248DE8611E /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7360FCAF6310019087E2B475 /* Masonry.framework */; };
+		D71DD1B57F11E87EE45CB7E5 /* APCrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD302E2D7C4D9A7E286243C6 /* APCrashReporter.framework */; };
+		D93BE002E1204A58306D05A4 /* APRemoteLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7952E6BE8F807A06602F6507 /* APRemoteLogging.framework */; };
+		DB170E84CBC732C602B2279D /* APMUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B07F3464A665D9D9E37F96DF /* APMUtils.framework */; };
+		DD8E30FF9239980F0A38E427 /* APMultimedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9510D7634E4635FD824EC0 /* APMultimedia.framework */; };
+		DE4E19C5471BB49EC70D24BE /* NebulaTinyAppDebug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E71237EC38ECA7A93A463A5 /* NebulaTinyAppDebug.framework */; };
+		DF6DA8645A6D6D956F3CED3C /* TBDecodeSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 69861A18A07455F7B8AF1CB2 /* TBDecodeSDK.bundle */; };
+		E088371652D7BF63EACF02F7 /* Texel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4101B633B6ECB0A9135B86B2 /* Texel.framework */; };
+		E41387758E23EC63CCAF9353 /* BeePhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10FE846AB091461EFDC0696 /* BeePhotoBrowser.framework */; };
+		E43E7C7321D1077E00D9E31A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43E7C7221D1077E00D9E31A /* Assets.xcassets */; };
+		E43E7C7621D1077E00D9E31A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43E7C7421D1077E00D9E31A /* LaunchScreen.storyboard */; };
+		E43E7C7921D1077E00D9E31A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E43E7C7821D1077E00D9E31A /* main.m */; };
+		EBD2FCB125931BE0005BC733 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2FCB025931BE0005BC733 /* MainViewController.swift */; };
+		EBDF1271259318B700D94C4A /* ARTVC.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5017782E56C0442829EA0FC6 /* ARTVC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC189AA5E1B6A3903C759BCD /* APMobileNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A34BB3C7A684B4CBA8D031 /* APMobileNetwork.framework */; };
+		EEA9647953AD00958D780A46 /* BeeLocationPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 35078288C0F6D4D25048018C /* BeeLocationPicker.bundle */; };
+		EEF225DD58750F4D2602F81C /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2325ACAAE213ADDFA59D578 /* AMapFoundationKit.framework */; };
+		EF53B3901CF919907F959D9D /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5C8FD6FCBE83D357595C98 /* SocketRocket.framework */; };
+		F0F1B8BC40269C0F03CF6573 /* BeeLocationPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9861F0AE602298BC42BD98F1 /* BeeLocationPicker.framework */; };
+		F1B406B21AAB61D277B55311 /* NebulaKernel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E378433AAD772C4B699012C1 /* NebulaKernel.framework */; };
+		F2F697561971E753DF6D60B0 /* MASSChannel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48DFE6234387052BD3C4AD3 /* MASSChannel.framework */; };
+		F4A2713ECB9925F55480B2A1 /* BeeCapture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B151A92140A82F9F2E54CDDF /* BeeCapture.bundle */; };
+		F6658E9066FC327E0AB3FBDF /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6711CB2026E7EC041DCA417F /* UserNotifications.framework */; };
+		F7391453AF43043EADF5CE06 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153F104B33B75CC84E904F2F /* AudioToolbox.framework */; };
+		F8D50D9093A8EB6689DE445A /* APMUtils.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 35811D282E7137C02145A803 /* APMUtils.bundle */; };
+		F9C32C5BFAE360F78F6E3357 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB6D0DC537BF18D844AEE70 /* Foundation.framework */; };
+		F9F9681543EC20B42E25585B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E54F5FA0FAE6840BAFEFB80F /* CoreTelephony.framework */; };
+		FB458C53C7F45CC0CD9053EA /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE10D8AF97772E040C4E7C3B /* MBProgressHUD.framework */; };
+		FCF13494363DA1B5030A081B /* AntUIShellForMpass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF33487FA12EC22DCB28F93D /* AntUIShellForMpass.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D30B5CF2592EF5800641D0B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EBDF1271259318B700D94C4A /* ARTVC.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0439E6D97DF944C0ABA59656 /* APMobileNetwork.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APMobileNetwork.bundle; sourceTree = "<group>"; };
+		04CE23AA916CF9767AC94754 /* SPMTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SPMTracker.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/SPMTracker/1.0.0.200302192253/SPMTracker.framework; sourceTree = "<absolute>"; };
+		0834C4E093472885CFE1D78E /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		08B4108B474E84618D400862 /* APCommonUI.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APCommonUI.bundle; sourceTree = "<group>"; };
+		093721C466D4DB47C2F47C12 /* NebulaBiz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NebulaBiz.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaBiz/1.0.0.201208113742/NebulaBiz.framework; sourceTree = "<absolute>"; };
+		09E6AFE3E5A13DE31AD2A79F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		0B4F0B04E0B5AD9C56DB5728 /* MPLauncherAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPLauncherAppDelegate.h; sourceTree = "<group>"; };
+		0C3855605D024A83893B4660 /* APMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APMap.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APMap/1.1.0.200508162904/APMap.framework; sourceTree = "<absolute>"; };
+		0D512EE8B9244DC3CF15815C /* AppDoctor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppDoctor.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/AppDoctor/1.0.0.191016150102/AppDoctor.framework; sourceTree = "<absolute>"; };
+		0ED00532CD848B048BD77A9F /* MPTabBarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPTabBarViewController.m; sourceTree = "<group>"; };
+		107B81956A271B791C48F10C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1119EB9CAAB0616264238B0B /* NebulaAppManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NebulaAppManager.bundle; sourceTree = "<group>"; };
+		153F104B33B75CC84E904F2F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		16DF752F67E16C086D137F68 /* TinyappService.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TinyappService.bundle; sourceTree = "<group>"; };
+		18F7D6456BD41B9C0FD62018 /* MPaaSInterface+mpast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MPaaSInterface+mpast.m"; sourceTree = "<group>"; };
+		1912A935F62A4D05A6737CD6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		1936C4E9BCC8C8DC266096F7 /* TBScanSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TBScanSDK.bundle; sourceTree = "<group>"; };
+		1A98A39C97F4F9E00FBCB1F3 /* SecurityGuardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityGuardSDK.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/SecurityGuardSDK/2.2.3.190326110928/SecurityGuardSDK.framework; sourceTree = "<absolute>"; };
+		2111EDDFA4A0A5B1C7189B1A /* BeeCityPicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = BeeCityPicker.bundle; sourceTree = "<group>"; };
+		21C9A80E003E2F85730847EE /* NebulaBiz.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NebulaBiz.bundle; sourceTree = "<group>"; };
+		22190160F141C15927F93C46 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapSearchKit.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/AMapSearchKit/1.0.0.190918200148/AMapSearchKit.framework; sourceTree = "<absolute>"; };
+		24987F6E52219C099CD504BD /* APRemoteLogging.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APRemoteLogging.bundle; sourceTree = "<group>"; };
+		24E3C983D78060298BC37BFF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		26540E07A861978564DA7235 /* NebulaAppBiz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NebulaAppBiz.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaAppBiz/1.0.0.200929111016/NebulaAppBiz.framework; sourceTree = "<absolute>"; };
+		269E204068038FB7E9D9005B /* APCommonUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APCommonUI.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APCommonUI/1.0.0.200729104902/APCommonUI.framework; sourceTree = "<absolute>"; };
+		273C4CBDF6F41D4FFAE9770A /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		2ABF77B8F9B2FE6302F0EBA9 /* APMap.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APMap.bundle; sourceTree = "<group>"; };
+		2CCFD8772364FFFE45F61DBC /* NebulaConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NebulaConfig.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaConfig/1.0.0.200929111016/NebulaConfig.framework; sourceTree = "<absolute>"; };
+		2D8299AFE2A7F72EF84971EC /* AOMPDevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AOMPDevice.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/AOMPDevice/1.0.0.200910205131/AOMPDevice.framework; sourceTree = "<absolute>"; };
+		2EB7615053180D8C4C7AD89B /* AutoTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoTracker.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/AutoTracker/1.0.0.200302154544/AutoTracker.framework; sourceTree = "<absolute>"; };
+		300A5598C49EC1E405D22474 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		32FBF87ED8E49DF937176854 /* DTFrameworkInterface+mpast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTFrameworkInterface+mpast.h"; sourceTree = "<group>"; };
+		35078288C0F6D4D25048018C /* BeeLocationPicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = BeeLocationPicker.bundle; sourceTree = "<group>"; };
+		35811D282E7137C02145A803 /* APMUtils.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APMUtils.bundle; sourceTree = "<group>"; };
+		36A28D3D99E8F482387F7754 /* BeePhotoBrowser.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = BeePhotoBrowser.bundle; sourceTree = "<group>"; };
+		37293D147B56945D922B68FC /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		37565272C63B32E9F05EBD79 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		377931B626E5A3EB961E6B9D /* BEEAudioUtil.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = BEEAudioUtil.bundle; sourceTree = "<group>"; };
+		386843E7AAA28A9A93DAE711 /* APLongLinkService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APLongLinkService.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APLongLinkService/1.0.0.200910205131/APLongLinkService.framework; sourceTree = "<absolute>"; };
+		3AF27273E15E0B3502394055 /* APMImageProcessing.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APMImageProcessing.bundle; sourceTree = "<group>"; };
+		3B0B15F8004749B8F06B9E90 /* BeeCityPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BeeCityPicker.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/BeeCityPicker/1.0.0.200511171746/BeeCityPicker.framework; sourceTree = "<absolute>"; };
+		3D8AA162EF1C1834DE398ED3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4101B633B6ECB0A9135B86B2 /* Texel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Texel.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/Texel/1.0.0.201103185351/Texel.framework; sourceTree = "<absolute>"; };
+		43F57878FCC1AADB1B127591 /* MPComponentDiagnose.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPComponentDiagnose.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MPComponentDiagnose/1.0.0.191011145955/MPComponentDiagnose.framework; sourceTree = "<absolute>"; };
+		47873173A4E64865FB2B5AEB /* APLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APLog.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APLog/3.0.2.201208163740/APLog.framework; sourceTree = "<absolute>"; };
+		49F9D4FE27ECE83C887686F4 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		4A6CCEEAC8B525FA1C17515E /* MPLBSAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPLBSAdapter.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MPLBSAdapter/1.0.0.201102200457/MPLBSAdapter.framework; sourceTree = "<absolute>"; };
+		4D19C8D325909F1500AA03AC /* mpast-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mpast-Bridging-Header.h"; sourceTree = "<group>"; };
+		4D19C8D425909F1500AA03AC /* SecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecViewController.swift; sourceTree = "<group>"; };
+		4E5C8FD6FCBE83D357595C98 /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocket.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/SocketRocket/1.0.0.200811152708/SocketRocket.framework; sourceTree = "<absolute>"; };
+		4EB10A37CD183618F36099DD /* AMap.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
+		4ED35DD362EB6447F32C6C8A /* APBLESDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APBLESDK.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APBLESDK/1.0.0.200228181541/APBLESDK.framework; sourceTree = "<absolute>"; };
+		5017782E56C0442829EA0FC6 /* ARTVC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARTVC.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/ARTVC/1.0.0.200813093839/ARTVC.framework; sourceTree = "<absolute>"; };
+		521E002BB7C1FE1B2604292C /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
+		5353C54EF4A0595FAE12AAAA /* APMCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APMCache.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APMCache/1.0.0.200302181840/APMCache.framework; sourceTree = "<absolute>"; };
+		5478B35B004566C99B0730DE /* NebulaSDKPlugins.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NebulaSDKPlugins.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaSDKPlugins/1.0.0.201111140724/NebulaSDKPlugins.framework; sourceTree = "<absolute>"; };
+		54AF3144DA8982CAC2B12B2C /* NebulaKernel.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NebulaKernel.bundle; sourceTree = "<group>"; };
+		5513D9D16006BDC554C34C6A /* MPShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPShareKit.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MPShareKit/1.0.0.200909144038/MPShareKit.framework; sourceTree = "<absolute>"; };
+		5703A3C1405C76C7797712F0 /* MPMssAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPMssAdapter.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MPMssAdapter/1.0.0.200525171627/MPMssAdapter.framework; sourceTree = "<absolute>"; };
+		57E93C04DEA320CC6E47EDBD /* APMCDNImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APMCDNImage.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APMCDNImage/1.0.0.200302181840/APMCDNImage.framework; sourceTree = "<absolute>"; };
+		57F30588ADEBED1C4E272361 /* NebulaLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NebulaLogging.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaLogging/1.0.0.200825182326/NebulaLogging.framework; sourceTree = "<absolute>"; };
+		597FB4A97563B44BF8E2B94F /* TTTAttributedLabel.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TTTAttributedLabel.bundle; sourceTree = "<group>"; };
+		5A7D396124A86077A59F14AA /* MPDataCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPDataCenter.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MPDataCenter/1.0.0.200302154544/MPDataCenter.framework; sourceTree = "<absolute>"; };
+		5A8BDE44713493E1A280C213 /* mPaas.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mPaas.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/mPaas/1.0.0.201119171452/mPaas.framework; sourceTree = "<absolute>"; };
+		5DB6D0DC537BF18D844AEE70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5FC4844DE307B5FD96351AB2 /* MPComponentDiagnose.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = MPComponentDiagnose.bundle; sourceTree = "<group>"; };
+		6322721DB9A6FE886C9ABD0C /* AntUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AntUI.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/AntUI/1.0.0.201111140724/AntUI.framework; sourceTree = "<absolute>"; };
+		635A320E0928AD000368590F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6624D2E47C1E9AB28D36F4C5 /* APMobileFramework.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APMobileFramework.bundle; sourceTree = "<group>"; };
+		66FDEA5E3B77D33A15DCDB22 /* DynamicDeployment.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = DynamicDeployment.bundle; sourceTree = "<group>"; };
+		6711CB2026E7EC041DCA417F /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		688D6B6429F05F80BA0D6F1E /* Webkit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Webkit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Webkit.framework; sourceTree = SDKROOT; };
+		69861A18A07455F7B8AF1CB2 /* TBDecodeSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TBDecodeSDK.bundle; sourceTree = "<group>"; };
+		69FAFF061E0C7173660EECD5 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		6D540BB119FDE12955217049 /* MASSProxy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MASSProxy.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MASSProxy/1.0.0.200228175209/MASSProxy.framework; sourceTree = "<absolute>"; };
+		6D9510D7634E4635FD824EC0 /* APMultimedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APMultimedia.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APMultimedia/1.0.0.201103165157/APMultimedia.framework; sourceTree = "<absolute>"; };
+		6DA5F5BF323FDB0C5B556ECC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6E20654FD77C308EC80AE2CC /* NebulaAppManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NebulaAppManager.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaAppManager/1.3.0.200407152548/NebulaAppManager.framework; sourceTree = "<absolute>"; };
+		6E71237EC38ECA7A93A463A5 /* NebulaTinyAppDebug.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NebulaTinyAppDebug.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaTinyAppDebug/1.0.0.200716162421/NebulaTinyAppDebug.framework; sourceTree = "<absolute>"; };
+		6FA73DE8732818DBA11EF15B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		6FEFAAA2697BA707123FB75C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7026937D524C1B871921E9F0 /* APMAudioProcessing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APMAudioProcessing.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APMAudioProcessing/1.0.0.200302181840/APMAudioProcessing.framework; sourceTree = "<absolute>"; };
+		7360FCAF6310019087E2B475 /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/Masonry/1.0.0.200406133247/Masonry.framework; sourceTree = "<absolute>"; };
+		7624D0B0F120C36F58F5EB0A /* APProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APProtocolBuffers.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APProtocolBuffers/1.0.1.200228175209/APProtocolBuffers.framework; sourceTree = "<absolute>"; };
+		766C00BCDC5313B10BB908AD /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/UTDID/1.0.2.190226130141/UTDID.framework; sourceTree = "<absolute>"; };
+		7952E6BE8F807A06602F6507 /* APRemoteLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APRemoteLogging.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APRemoteLogging/1.0.0.201208163740/APRemoteLogging.framework; sourceTree = "<absolute>"; };
+		7AA22A59202D2579BE14BEEC /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		7C6659D51B1D7CBB97D4C91F /* yw_1222.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
+		7F1ED35649C187AC9097407E /* TianYan.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TianYan.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/TianYan/1.0.0.200608201645/TianYan.framework; sourceTree = "<absolute>"; };
+		8033E33BC085D0B6E2F770BD /* TBDecodeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TBDecodeSDK.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/TBScanSDK/1.0.0.200910151733/TBDecodeSDK.framework; sourceTree = "<absolute>"; };
+		817DB744C3C4A47A4C20A1ED /* MPInternalPresetApps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = MPInternalPresetApps.bundle; sourceTree = "<group>"; };
+		82FE486C3981E637B615A013 /* BeeMediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BeeMediaPlayer.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/BeeMediaPlayer/1.0.0.200228134728/BeeMediaPlayer.framework; sourceTree = "<absolute>"; };
+		83F1CCFA27DD5EA0398FDD6E /* NebulaNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NebulaNetwork.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaNetwork/1.0.0.201117143907/NebulaNetwork.framework; sourceTree = "<absolute>"; };
+		863CAAF6F6E756D3CDD5AC34 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8C1504AB79A0A83242BC037C /* TinyappService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TinyappService.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/TinyappService/1.0.0.200609130246/TinyappService.framework; sourceTree = "<absolute>"; };
+		8C48B92241D602ABAD29D387 /* APMobileLBS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APMobileLBS.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APMobileLBS/1.0.1.201208134015/APMobileLBS.framework; sourceTree = "<absolute>"; };
+		8CCD44DF6398F600A179EC05 /* BeePhotoPicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = BeePhotoPicker.bundle; sourceTree = "<group>"; };
+		8DAB6116291913EF6C335AC2 /* MPBaseTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPBaseTest.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MPBaseTest/1.0.0.200228122047/MPBaseTest.framework; sourceTree = "<absolute>"; };
+		8E93E321AFF937155A9C6812 /* Texel.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Texel.bundle; sourceTree = "<group>"; };
+		8ECD02C51BEDA7B755CD4C05 /* Nebula.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nebula.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/Nebula/1.0.0.200826173452/Nebula.framework; sourceTree = "<absolute>"; };
+		903FB61AD5CC6D3DF91F5476 /* MPMasAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPMasAdapter.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MPMasAdapter/1.0.0.200716143211/MPMasAdapter.framework; sourceTree = "<absolute>"; };
+		90A1AE7FDBD2216AC6445132 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MAMapKit.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MAMapKit/2.4.0.190918200148/MAMapKit.framework; sourceTree = "<absolute>"; };
+		92A599D0901A41FA5FF20172 /* MobileRuntime.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = MobileRuntime.plist; sourceTree = "<group>"; };
+		9419FD2790D0FDD449F85267 /* SGMain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGMain.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/SecurityGuardSDK/2.2.3.190326110928/SGMain.framework; sourceTree = "<absolute>"; };
+		9478FCBB22D228926FF02142 /* APMobileFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APMobileFramework.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APMobileFramework/1.0.0.201111140724/APMobileFramework.framework; sourceTree = "<absolute>"; };
+		95D22401DBE93AD9CC261BBA /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		960C19BD826A075B7E8812C4 /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = meta.config; sourceTree = "<group>"; };
+		96B10D052E584C2ACDDEA0F2 /* APMLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APMLogging.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APMLogging/1.0.0.200716133857/APMLogging.framework; sourceTree = "<absolute>"; };
+		96CA9F03501ADD4A6A56531D /* BeePhoto.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = BeePhoto.bundle; sourceTree = "<group>"; };
+		9861F0AE602298BC42BD98F1 /* BeeLocationPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BeeLocationPicker.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/BeeLocationPicker/1.0.0.200407101856/BeeLocationPicker.framework; sourceTree = "<absolute>"; };
+		9B9C3BB6F99A317F25E521DA /* MPInternalPlugins.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = MPInternalPlugins.bundle; sourceTree = "<group>"; };
+		9CC9D8CAA0C1FD03E78EE295 /* MPDiagnosis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPDiagnosis.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MPDiagnosis/1.0.0.200525171627/MPDiagnosis.framework; sourceTree = "<absolute>"; };
+		9CF75DF0E8A3B20C395863B0 /* MPDevHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPDevHelper.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MPDevHelper/1.0.0.191012164941/MPDevHelper.framework; sourceTree = "<absolute>"; };
+		9D79B38F99747D0914F9A8F3 /* AOMPDevice.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AOMPDevice.bundle; sourceTree = "<group>"; };
+		9D9646C25CD5D5435E87C382 /* NebulaTinyapp.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NebulaTinyapp.bundle; sourceTree = "<group>"; };
+		9F42AF84BDDE7F6D795E5C97 /* NebulaHeader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NebulaHeader.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaHeader/1.0.0.200407094748/NebulaHeader.framework; sourceTree = "<absolute>"; };
+		9F8CDFCB2299658240F69002 /* APOpenSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APOpenSSL.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APOpenSSL/1.0.0.200228175209/APOpenSSL.framework; sourceTree = "<absolute>"; };
+		A084A5657A1B3F653119432E /* mpast-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "mpast-Prefix.pch"; path = "../../../mpast/mpast-Prefix.pch"; sourceTree = "<group>"; };
+		A0D86700C5CBE33C8658483B /* MPDynamicAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPDynamicAdapter.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MPDynamicAdapter/1.0.0.200525171627/MPDynamicAdapter.framework; sourceTree = "<absolute>"; };
+		A17388192452462CF9785FD1 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		A25DA73A4FA4E535C435907B /* mpast-mPaaS-Headers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mpast-mPaaS-Headers.h"; sourceTree = "<group>"; };
+		A2725BC4F52152C0C720693A /* NebulaPoseidon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NebulaPoseidon.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaPoseidon/1.3.0.201208193922/NebulaPoseidon.framework; sourceTree = "<absolute>"; };
+		A42C1D8C6800BFB3B7D442C4 /* BeeCapture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BeeCapture.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/BeeCapture/1.0.0.200228120654/BeeCapture.framework; sourceTree = "<absolute>"; };
+		A61CC774065C531DDFD0F09B /* APWebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APWebP.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APWebP/1.0.0.200302192253/APWebP.framework; sourceTree = "<absolute>"; };
+		A6932393497456CC93208FC7 /* MPaaSInterface+mpast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPaaSInterface+mpast.h"; sourceTree = "<group>"; };
+		A7A9A8D46F01618CE1A7E2BC /* APMTaskManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APMTaskManager.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APMTaskManager/1.0.0.200302181840/APMTaskManager.framework; sourceTree = "<absolute>"; };
+		AB1AC478CD3EC74AF258D9FC /* MPPerformance.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPPerformance.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MPPerformance/1.0.0.200407145306/MPPerformance.framework; sourceTree = "<absolute>"; };
+		AB65B6DF2468783C48332C0E /* TBScanSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TBScanSDK.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/TBScanSDK/1.0.0.200910151733/TBScanSDK.framework; sourceTree = "<absolute>"; };
+		AB91877C2597B228E4CC2106 /* NebulaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NebulaSDK.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaSDK/1.0.0.201117113713/NebulaSDK.framework; sourceTree = "<absolute>"; };
+		ACCED4A6DD12235D77A1BEC0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B07F3464A665D9D9E37F96DF /* APMUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APMUtils.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APMUtils/1.0.0.201103180649/APMUtils.framework; sourceTree = "<absolute>"; };
+		B151A92140A82F9F2E54CDDF /* BeeCapture.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = BeeCapture.bundle; sourceTree = "<group>"; };
+		B18A2044B0DAD5630B76B473 /* MPScanCodeAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPScanCodeAdapter.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MPScanCodeAdapter/1.0.0.200827112332/MPScanCodeAdapter.framework; sourceTree = "<absolute>"; };
+		B28CF25D42C4FD90799D98A2 /* NebulaSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NebulaSDK.bundle; sourceTree = "<group>"; };
+		B6F48B636CD25179312B57D2 /* MPLauncherAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPLauncherAppDelegate.m; sourceTree = "<group>"; };
+		B81609392A0BFB5B226A59E1 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		B9741F12ADE6D6FE86CD7FAD /* NebulaTinyapp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NebulaTinyapp.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaTinyapp/1.0.0.200421110729/NebulaTinyapp.framework; sourceTree = "<absolute>"; };
+		BD4DAD86FA2D960F5DCA49D8 /* TinyAppCommon.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TinyAppCommon.bundle; sourceTree = "<group>"; };
+		BE0482ED6A0361D752A167CC /* MPNebulaAdapter.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = MPNebulaAdapter.bundle; sourceTree = "<group>"; };
+		C11A1EA7859689D12CEB0359 /* BeePhoto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BeePhoto.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/BeePhoto/1.0.0.200407101856/BeePhoto.framework; sourceTree = "<absolute>"; };
+		C2325ACAAE213ADDFA59D578 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapFoundationKit.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/AMapFoundationKit/1.0.0.190918200003/AMapFoundationKit.framework; sourceTree = "<absolute>"; };
+		C2A76DD24131211DB0241F2C /* BeePhotoPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BeePhotoPicker.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/BeePhotoPicker/1.0.0.200407101856/BeePhotoPicker.framework; sourceTree = "<absolute>"; };
+		C35646B783CB3586CEB501EB /* TinyAppCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TinyAppCommon.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/TinyAppCommon/1.0.0.200716162421/TinyAppCommon.framework; sourceTree = "<absolute>"; };
+		C6F1E30AF61EE7D33F6794A2 /* NebulaPoseidon.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NebulaPoseidon.bundle; sourceTree = "<group>"; };
+		CAB65695462866C45A29F5A7 /* APMBeauty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APMBeauty.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APMBeauty/1.0.0.200302181840/APMBeauty.framework; sourceTree = "<absolute>"; };
+		CACD512D2D8C3B6E6B9A22C8 /* TTTAttributedLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TTTAttributedLabel.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/TTTAttributedLabel/1.0.0.200729094531/TTTAttributedLabel.framework; sourceTree = "<absolute>"; };
+		CBD3CCD44726F429E3A88D94 /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/Lottie/1.0.0.200228135004/Lottie.framework; sourceTree = "<absolute>"; };
+		CC5ECF0C4296C5855B880CEF /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		CC649AEC757341AAA2A7A2D3 /* APConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APConfig.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APConfig/1.0.0.201209103525/APConfig.framework; sourceTree = "<absolute>"; };
+		CDD3F1285DC8525C06FB7915 /* NebulaLogging.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NebulaLogging.bundle; sourceTree = "<group>"; };
+		CEB52F5B25D006C7A18DF810 /* MPHotpatchSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPHotpatchSDK.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MPHotpatchSDK/1.0.0.190912135940/MPHotpatchSDK.framework; sourceTree = "<absolute>"; };
+		D3220AE8F8B920CA7A2DCD04 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		D46E084C3EBA57F73461BCE7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		D48DFE6234387052BD3C4AD3 /* MASSChannel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MASSChannel.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MASSChannel/1.0.0.200228175209/MASSChannel.framework; sourceTree = "<absolute>"; };
+		D4A34BB3C7A684B4CBA8D031 /* APMobileNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APMobileNetwork.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APMobileNetwork/1.0.0.200910205131/APMobileNetwork.framework; sourceTree = "<absolute>"; };
+		D4D3CB2504590B763D789CC1 /* APMImageProcessing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APMImageProcessing.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APMImageProcessing/1.0.0.200302181840/APMImageProcessing.framework; sourceTree = "<absolute>"; };
+		D52784F780C2880288F4501C /* MPNebulaAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPNebulaAdapter.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MPNebulaAdapter/1.0.0.201117112551/MPNebulaAdapter.framework; sourceTree = "<absolute>"; };
+		D609C796743F559E646BB3E3 /* mpaas_sdk.config */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = mpaas_sdk.config; sourceTree = "<group>"; };
+		D683A9EAE9314702A9DBB4BB /* MPMpaaSService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPMpaaSService.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MPMpaaSService/1.0.0.200907181226/MPMpaaSService.framework; sourceTree = "<absolute>"; };
+		D7D0E70894D7DF1051694A89 /* MPTabBarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPTabBarViewController.h; sourceTree = "<group>"; };
+		D7F26DBC89661B15C190E5C0 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		D895600988484653694091DB /* NebulamPaaSBiz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NebulamPaaSBiz.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulamPaaSBiz/1.0.0.200907182133/NebulamPaaSBiz.framework; sourceTree = "<absolute>"; };
+		D9138BB8C80CED84D6BB23AD /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/SDWebImage/1.0.0.201019140541/SDWebImage.framework; sourceTree = "<absolute>"; };
+		DBB02E427F6F42894CD77E5F /* NebulaSDKPlugins.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NebulaSDKPlugins.bundle; sourceTree = "<group>"; };
+		DD302E2D7C4D9A7E286243C6 /* APCrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APCrashReporter.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APCrashReporter/1.0.0.201204172346/APCrashReporter.framework; sourceTree = "<absolute>"; };
+		DDD971964AA7A047E6B4BF71 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		DDD9AAAD41D8001909E2EF13 /* MPMgsAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPMgsAdapter.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MPMgsAdapter/1.0.0.200525171627/MPMgsAdapter.framework; sourceTree = "<absolute>"; };
+		DFDCA6D67D6B3EED8D42A92A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		E170ADCB98760708E93D97A7 /* NebulaConfig.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = NebulaConfig.bundle; sourceTree = "<group>"; };
+		E378433AAD772C4B699012C1 /* NebulaKernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NebulaKernel.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaKernel/1.0.0.200228142526/NebulaKernel.framework; sourceTree = "<absolute>"; };
+		E43E7C6621D1077E00D9E31A /* mpast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mpast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43E7C7221D1077E00D9E31A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E43E7C7521D1077E00D9E31A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E43E7C7721D1077E00D9E31A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E43E7C7821D1077E00D9E31A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E43E7C8221D1095B00D9E31A /* mpast-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mpast-Prefix.pch"; sourceTree = "<group>"; };
+		E43E7C8621D1446400D9E31A /* mpast.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mpast.entitlements; sourceTree = "<group>"; };
+		E4ACF31B9D0917FAD5B553BD /* MPShareKit.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = MPShareKit.bundle; sourceTree = "<group>"; };
+		E54F5FA0FAE6840BAFEFB80F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E6D95FC6740CE1BB267016ED /* AOMPFileManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AOMPFileManager.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/AOMPFileManager/1.0.0.200228173902/AOMPFileManager.framework; sourceTree = "<absolute>"; };
+		E99A6377095816D41083FF39 /* NebulaSecurity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NebulaSecurity.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaSecurity/1.0.0.200907181226/NebulaSecurity.framework; sourceTree = "<absolute>"; };
+		EBD2FCB025931BE0005BC733 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EE10D8AF97772E040C4E7C3B /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MBProgressHUD/1.0.0.200406133247/MBProgressHUD.framework; sourceTree = "<absolute>"; };
+		F10FE846AB091461EFDC0696 /* BeePhotoBrowser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BeePhotoBrowser.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/BeePhotoBrowser/1.0.0.200407101856/BeePhotoBrowser.framework; sourceTree = "<absolute>"; };
+		F11C149F095EBB28072D6003 /* BEEAudioUtil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BEEAudioUtil.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/BEEAudioUtil/1.0.0.200228120654/BEEAudioUtil.framework; sourceTree = "<absolute>"; };
+		F2DC4BFACD9AB417B80AA06B /* APMCDNImage.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APMCDNImage.bundle; sourceTree = "<group>"; };
+		F406E98FE818F39F5FD24AC8 /* APMultimedia.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APMultimedia.bundle; sourceTree = "<group>"; };
+		F4B57753AB824C03D76FAE7B /* AppDoctor.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AppDoctor.bundle; sourceTree = "<group>"; };
+		F8AF04A22A7CD0913D9E8C7D /* APSecurityUtility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APSecurityUtility.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APSecurityUtility/1.2.0.171012202618/APSecurityUtility.framework; sourceTree = "<absolute>"; };
+		FA9FA397D49A0D68EC039D45 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FC1C9F111E4A2EA5C8091D0D /* MPDevHelper.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = MPDevHelper.bundle; sourceTree = "<group>"; };
+		FDA7631367597258434C5322 /* DTFrameworkInterface+mpast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTFrameworkInterface+mpast.m"; sourceTree = "<group>"; };
+		FDE1BC623C5790A9611520BB /* BeeMediaPlayer.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = BeeMediaPlayer.bundle; sourceTree = "<group>"; };
+		FE1C73C612B3E896DDDEE3FF /* AudioToolBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolBox.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AudioToolBox.framework; sourceTree = SDKROOT; };
+		FF33487FA12EC22DCB28F93D /* AntUIShellForMpass.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AntUIShellForMpass.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/AntUIShellForMpass/1.0.0.200421105830/AntUIShellForMpass.framework; sourceTree = "<absolute>"; };
+		FF78BDBB2EABDB3156D93238 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E43E7C6321D1077E00D9E31A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65682DA1C31457CCC11265F6 /* SystemConfiguration.framework in Frameworks */,
+				3B0077C3542F5FA91D50465D /* CoreLocation.framework in Frameworks */,
+				879CE3940790F755E98BE59A /* GLKit.framework in Frameworks */,
+				C616CA94A14C07DF4B8A7D2C /* CoreMotion.framework in Frameworks */,
+				06B7B38EB8F7294913D04B0F /* ReplayKit.framework in Frameworks */,
+				F9F9681543EC20B42E25585B /* CoreTelephony.framework in Frameworks */,
+				1E68BBDF8682710CC91C6653 /* UIKit.framework in Frameworks */,
+				6B0F2C37210C591DE750F50A /* OpenGLES.framework in Frameworks */,
+				ABED8873C4196D371D175BA9 /* CoreMedia.framework in Frameworks */,
+				7294152CBEE6C46AC5F64825 /* AVFoundation.framework in Frameworks */,
+				57D634752F9CBF62994A241F /* VideoToolbox.framework in Frameworks */,
+				F7391453AF43043EADF5CE06 /* AudioToolbox.framework in Frameworks */,
+				1D70432CECA23A15912F1C97 /* Security.framework in Frameworks */,
+				F9C32C5BFAE360F78F6E3357 /* Foundation.framework in Frameworks */,
+				321206E021B2D9FDE508378A /* Accelerate.framework in Frameworks */,
+				B2CACB1E57AA33F870B8ED83 /* MessageUI.framework in Frameworks */,
+				F6658E9066FC327E0AB3FBDF /* UserNotifications.framework in Frameworks */,
+				3AE7FAEC4999A26529470CE0 /* MapKit.framework in Frameworks */,
+				5A18412F30B59B42C6E89A9D /* MobileCoreServices.framework in Frameworks */,
+				9CD2C80087E8C50D28120D06 /* AudioToolBox.framework in Frameworks */,
+				1B64123443053B11FD1A8938 /* Photos.framework in Frameworks */,
+				0472609CEF1A407BC6C6140C /* CoreAudio.framework in Frameworks */,
+				02AA5578B569397AD0080F1C /* AssetsLibrary.framework in Frameworks */,
+				3F6B34FA7BEEC0E508796AEA /* JavaScriptCore.framework in Frameworks */,
+				5F2F33694E14B2472E7EE21D /* MediaPlayer.framework in Frameworks */,
+				1962FB7C775D5A330F7D0115 /* Webkit.framework in Frameworks */,
+				3F86168F68B05E97F86E2FA6 /* WebKit.framework in Frameworks */,
+				D70457E95832884AB0FB140D /* ImageIO.framework in Frameworks */,
+				43BA2DEED02AD3E62FF07EDA /* CoreBluetooth.framework in Frameworks */,
+				217B42795DF897B905E8550B /* QuickLook.framework in Frameworks */,
+				17B1A9D331E7C407FB420183 /* AddressBook.framework in Frameworks */,
+				6CE4D5966DC820AE8CBFAD36 /* AddressBookUI.framework in Frameworks */,
+				A4FD26C9BFB7F0053C86DB83 /* Contacts.framework in Frameworks */,
+				10CA0C0CB3B6501E1AA52CEB /* ContactsUI.framework in Frameworks */,
+				88C1DE9FA278470C26AD3F53 /* NetworkExtension.framework in Frameworks */,
+				B4DB6BBE911948252D0093CD /* MPBaseTest.framework in Frameworks */,
+				B598DB9E4718A1551B791F5A /* APLog.framework in Frameworks */,
+				EEF225DD58750F4D2602F81C /* AMapFoundationKit.framework in Frameworks */,
+				385AB4D96ABDD086B7F12529 /* MAMapKit.framework in Frameworks */,
+				4B72BAE87D97A13563222D28 /* AMapSearchKit.framework in Frameworks */,
+				A802B24DA12BB61069C7981F /* APWebP.framework in Frameworks */,
+				2EB2F351FD8CBA6D44EF1CCF /* ARTVC.framework in Frameworks */,
+				DB170E84CBC732C602B2279D /* APMUtils.framework in Frameworks */,
+				EF53B3901CF919907F959D9D /* SocketRocket.framework in Frameworks */,
+				18CCA64CD871C6D34BE65671 /* APMLogging.framework in Frameworks */,
+				D93BE002E1204A58306D05A4 /* APRemoteLogging.framework in Frameworks */,
+				475EA51A88508A5E50749F3F /* mPaas.framework in Frameworks */,
+				85C34085C57FC39194FDFA6B /* UTDID.framework in Frameworks */,
+				7AD60D464C9D698CB4BC53B7 /* APProtocolBuffers.framework in Frameworks */,
+				097137633474CBA80E487DCB /* APCommonUI.framework in Frameworks */,
+				6CAC44873479A12FEFF40727 /* AntUI.framework in Frameworks */,
+				D71AEE28821EB2248DE8611E /* Masonry.framework in Frameworks */,
+				FB458C53C7F45CC0CD9053EA /* MBProgressHUD.framework in Frameworks */,
+				6D6214DD40225421993E984B /* TTTAttributedLabel.framework in Frameworks */,
+				FCF13494363DA1B5030A081B /* AntUIShellForMpass.framework in Frameworks */,
+				AC0B9AE0912664FC0B6C3636 /* MPDataCenter.framework in Frameworks */,
+				AC7B12BC7A6907F5C269A896 /* MPDevHelper.framework in Frameworks */,
+				275BCDAAB89B64D62C50A047 /* MPComponentDiagnose.framework in Frameworks */,
+				56165C452DDE3C070C9D28DF /* MPHotpatchSDK.framework in Frameworks */,
+				78F19EC2F9C389D93418BA9B /* SecurityGuardSDK.framework in Frameworks */,
+				60202736516757AFA8C12DCF /* SGMain.framework in Frameworks */,
+				23E0B0F2B4D4B5A037EB8D45 /* APLongLinkService.framework in Frameworks */,
+				EC189AA5E1B6A3903C759BCD /* APMobileNetwork.framework in Frameworks */,
+				260088C3DFB6EA571A0FDFB4 /* APSecurityUtility.framework in Frameworks */,
+				4CE1BA4CABD82A7667AE7563 /* APOpenSSL.framework in Frameworks */,
+				8939CD21864D411674017395 /* MPMpaaSService.framework in Frameworks */,
+				0854AA9BF4D411264A73D128 /* MPDynamicAdapter.framework in Frameworks */,
+				631082F91426C176CF006345 /* MPMasAdapter.framework in Frameworks */,
+				47629C3DFC6CE330CB4E329A /* MPMgsAdapter.framework in Frameworks */,
+				344E334250CD64E0A410DB36 /* MPMssAdapter.framework in Frameworks */,
+				2C47AB306ACEADFF99AEBBCB /* MPDiagnosis.framework in Frameworks */,
+				70FE84122F8756924FCD255B /* MPLBSAdapter.framework in Frameworks */,
+				672654F1BE7F2C82E7393F81 /* APMobileLBS.framework in Frameworks */,
+				1939FF6DD9EFB626F227D28E /* Nebula.framework in Frameworks */,
+				3486A90D82668F5F167AE042 /* APMobileFramework.framework in Frameworks */,
+				727736379F731087731FCC82 /* NebulaSDK.framework in Frameworks */,
+				6D1233A90BB9B11426DB7050 /* NebulaPoseidon.framework in Frameworks */,
+				A37F71E7F39D6442825BE11A /* NebulaAppManager.framework in Frameworks */,
+				1AC9B2BDE3ADE31054CA527F /* SDWebImage.framework in Frameworks */,
+				F1B406B21AAB61D277B55311 /* NebulaKernel.framework in Frameworks */,
+				84FD15F092086982785D7BF8 /* NebulaBiz.framework in Frameworks */,
+				1FA8360598C512D982D31E72 /* NebulaSecurity.framework in Frameworks */,
+				1F811106B5BC4F184D3F3C15 /* TinyAppCommon.framework in Frameworks */,
+				A267E05ABC46A6A4AEC3EE82 /* NebulaTinyapp.framework in Frameworks */,
+				AE1C6F3146E5F77C8AFA770E /* NebulaLogging.framework in Frameworks */,
+				CBB4530401BA78B06F0F0EBC /* AutoTracker.framework in Frameworks */,
+				72BA882215CD73C230AB0ADF /* NebulaConfig.framework in Frameworks */,
+				1009B59E5149D0AF12FF75A7 /* APConfig.framework in Frameworks */,
+				9A730F48B8E914FAABB050B1 /* NebulaAppBiz.framework in Frameworks */,
+				605EEBC89BA646A60349FCCD /* MASSProxy.framework in Frameworks */,
+				F2F697561971E753DF6D60B0 /* MASSChannel.framework in Frameworks */,
+				DD8E30FF9239980F0A38E427 /* APMultimedia.framework in Frameworks */,
+				D67AD78E9B150BE89112A189 /* APMBeauty.framework in Frameworks */,
+				A7C52F91C611B9F9E436BFC6 /* APMTaskManager.framework in Frameworks */,
+				4128E0069D4396EB880618ED /* APMCache.framework in Frameworks */,
+				63C4F6B55C54E393C5E6A37B /* APMImageProcessing.framework in Frameworks */,
+				E088371652D7BF63EACF02F7 /* Texel.framework in Frameworks */,
+				1FECBC5033AA2F491BF2C18E /* APMCDNImage.framework in Frameworks */,
+				265381CD67D0F1C25777A061 /* MPPerformance.framework in Frameworks */,
+				00F449A9473E307F4855C256 /* TianYan.framework in Frameworks */,
+				D71DD1B57F11E87EE45CB7E5 /* APCrashReporter.framework in Frameworks */,
+				C7EE20AE2793F3F8D664A77E /* MPNebulaAdapter.framework in Frameworks */,
+				22F7096FE297EEB77B7168A4 /* NebulamPaaSBiz.framework in Frameworks */,
+				00BA71A210E5C0794071BBB0 /* NebulaHeader.framework in Frameworks */,
+				97C4D8E86BE7AF855BDF7A06 /* NebulaNetwork.framework in Frameworks */,
+				21BDDA8A92974AC3D8086E97 /* AppDoctor.framework in Frameworks */,
+				2ACB6208F8719FB9BB3472F6 /* TBScanSDK.framework in Frameworks */,
+				C32BFF0485A2544B8F530060 /* TBDecodeSDK.framework in Frameworks */,
+				B49EB061D863516D6A96DE72 /* MPShareKit.framework in Frameworks */,
+				5BE8B630A01560425DBE25BE /* Lottie.framework in Frameworks */,
+				C065B0F08514579C15050334 /* APBLESDK.framework in Frameworks */,
+				B553934E1D891BB058B5C937 /* AOMPFileManager.framework in Frameworks */,
+				DE4E19C5471BB49EC70D24BE /* NebulaTinyAppDebug.framework in Frameworks */,
+				2E302D84C0DF462DDA2D6970 /* AOMPDevice.framework in Frameworks */,
+				9006BB29C11810C1388C9C86 /* APMap.framework in Frameworks */,
+				F0F1B8BC40269C0F03CF6573 /* BeeLocationPicker.framework in Frameworks */,
+				730CE3FD0D250ABB9011C43E /* BeeCityPicker.framework in Frameworks */,
+				313D8B679A2D0CE5950AA9B3 /* BeePhoto.framework in Frameworks */,
+				E41387758E23EC63CCAF9353 /* BeePhotoBrowser.framework in Frameworks */,
+				C7E291905B9F9E7C0D49F004 /* BeeMediaPlayer.framework in Frameworks */,
+				C1F49420EA33FA8CD46EC539 /* BeePhotoPicker.framework in Frameworks */,
+				425563DC24551462280D1352 /* MPScanCodeAdapter.framework in Frameworks */,
+				8F61A201080E5B9E4DC6CEB2 /* NebulaSDKPlugins.framework in Frameworks */,
+				839653DEE2B15645B8294B3D /* TinyappService.framework in Frameworks */,
+				0403626A43CCDFF20136D2D6 /* BEEAudioUtil.framework in Frameworks */,
+				A7DEC480B4F340D388376670 /* BeeCapture.framework in Frameworks */,
+				CC4DA152F0543957D97CC93C /* SPMTracker.framework in Frameworks */,
+				AA22BD0A17FE9E29D621AD3D /* APMAudioProcessing.framework in Frameworks */,
+				3B1B5E7CA1BEB959A16C5A61 /* EventKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		006403512CC18179B3B88BD7 /* MPaaS */ = {
+			isa = PBXGroup;
+			children = (
+				D609C796743F559E646BB3E3 /* mpaas_sdk.config */,
+				F3B35E2F9B11B96C0B9DB957 /* Targets */,
+				FDAC8BAECC0CBD16E13E893D /* Resources */,
+				388E46F310FEC67706F1DBD4 /* Frameworks */,
+			);
+			path = MPaaS;
+			sourceTree = "<group>";
+		};
+		0A276246AB38322BE03E882A /* mPaas */ = {
+			isa = PBXGroup;
+			children = (
+				A6932393497456CC93208FC7 /* MPaaSInterface+mpast.h */,
+				18F7D6456BD41B9C0FD62018 /* MPaaSInterface+mpast.m */,
+			);
+			path = mPaas;
+			sourceTree = "<group>";
+		};
+		388E46F310FEC67706F1DBD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DAB6116291913EF6C335AC2 /* MPBaseTest.framework */,
+				47873173A4E64865FB2B5AEB /* APLog.framework */,
+				C2325ACAAE213ADDFA59D578 /* AMapFoundationKit.framework */,
+				90A1AE7FDBD2216AC6445132 /* MAMapKit.framework */,
+				22190160F141C15927F93C46 /* AMapSearchKit.framework */,
+				A61CC774065C531DDFD0F09B /* APWebP.framework */,
+				5017782E56C0442829EA0FC6 /* ARTVC.framework */,
+				B07F3464A665D9D9E37F96DF /* APMUtils.framework */,
+				4E5C8FD6FCBE83D357595C98 /* SocketRocket.framework */,
+				96B10D052E584C2ACDDEA0F2 /* APMLogging.framework */,
+				7952E6BE8F807A06602F6507 /* APRemoteLogging.framework */,
+				5A8BDE44713493E1A280C213 /* mPaas.framework */,
+				766C00BCDC5313B10BB908AD /* UTDID.framework */,
+				7624D0B0F120C36F58F5EB0A /* APProtocolBuffers.framework */,
+				269E204068038FB7E9D9005B /* APCommonUI.framework */,
+				6322721DB9A6FE886C9ABD0C /* AntUI.framework */,
+				7360FCAF6310019087E2B475 /* Masonry.framework */,
+				EE10D8AF97772E040C4E7C3B /* MBProgressHUD.framework */,
+				CACD512D2D8C3B6E6B9A22C8 /* TTTAttributedLabel.framework */,
+				FF33487FA12EC22DCB28F93D /* AntUIShellForMpass.framework */,
+				5A7D396124A86077A59F14AA /* MPDataCenter.framework */,
+				9CF75DF0E8A3B20C395863B0 /* MPDevHelper.framework */,
+				43F57878FCC1AADB1B127591 /* MPComponentDiagnose.framework */,
+				CEB52F5B25D006C7A18DF810 /* MPHotpatchSDK.framework */,
+				1A98A39C97F4F9E00FBCB1F3 /* SecurityGuardSDK.framework */,
+				9419FD2790D0FDD449F85267 /* SGMain.framework */,
+				386843E7AAA28A9A93DAE711 /* APLongLinkService.framework */,
+				D4A34BB3C7A684B4CBA8D031 /* APMobileNetwork.framework */,
+				F8AF04A22A7CD0913D9E8C7D /* APSecurityUtility.framework */,
+				9F8CDFCB2299658240F69002 /* APOpenSSL.framework */,
+				D683A9EAE9314702A9DBB4BB /* MPMpaaSService.framework */,
+				A0D86700C5CBE33C8658483B /* MPDynamicAdapter.framework */,
+				903FB61AD5CC6D3DF91F5476 /* MPMasAdapter.framework */,
+				DDD9AAAD41D8001909E2EF13 /* MPMgsAdapter.framework */,
+				5703A3C1405C76C7797712F0 /* MPMssAdapter.framework */,
+				9CC9D8CAA0C1FD03E78EE295 /* MPDiagnosis.framework */,
+				4A6CCEEAC8B525FA1C17515E /* MPLBSAdapter.framework */,
+				8C48B92241D602ABAD29D387 /* APMobileLBS.framework */,
+				8ECD02C51BEDA7B755CD4C05 /* Nebula.framework */,
+				9478FCBB22D228926FF02142 /* APMobileFramework.framework */,
+				AB91877C2597B228E4CC2106 /* NebulaSDK.framework */,
+				A2725BC4F52152C0C720693A /* NebulaPoseidon.framework */,
+				6E20654FD77C308EC80AE2CC /* NebulaAppManager.framework */,
+				D9138BB8C80CED84D6BB23AD /* SDWebImage.framework */,
+				E378433AAD772C4B699012C1 /* NebulaKernel.framework */,
+				093721C466D4DB47C2F47C12 /* NebulaBiz.framework */,
+				E99A6377095816D41083FF39 /* NebulaSecurity.framework */,
+				C35646B783CB3586CEB501EB /* TinyAppCommon.framework */,
+				B9741F12ADE6D6FE86CD7FAD /* NebulaTinyapp.framework */,
+				57F30588ADEBED1C4E272361 /* NebulaLogging.framework */,
+				2EB7615053180D8C4C7AD89B /* AutoTracker.framework */,
+				2CCFD8772364FFFE45F61DBC /* NebulaConfig.framework */,
+				CC649AEC757341AAA2A7A2D3 /* APConfig.framework */,
+				26540E07A861978564DA7235 /* NebulaAppBiz.framework */,
+				6D540BB119FDE12955217049 /* MASSProxy.framework */,
+				D48DFE6234387052BD3C4AD3 /* MASSChannel.framework */,
+				6D9510D7634E4635FD824EC0 /* APMultimedia.framework */,
+				CAB65695462866C45A29F5A7 /* APMBeauty.framework */,
+				A7A9A8D46F01618CE1A7E2BC /* APMTaskManager.framework */,
+				5353C54EF4A0595FAE12AAAA /* APMCache.framework */,
+				D4D3CB2504590B763D789CC1 /* APMImageProcessing.framework */,
+				4101B633B6ECB0A9135B86B2 /* Texel.framework */,
+				57E93C04DEA320CC6E47EDBD /* APMCDNImage.framework */,
+				AB1AC478CD3EC74AF258D9FC /* MPPerformance.framework */,
+				7F1ED35649C187AC9097407E /* TianYan.framework */,
+				DD302E2D7C4D9A7E286243C6 /* APCrashReporter.framework */,
+				D52784F780C2880288F4501C /* MPNebulaAdapter.framework */,
+				D895600988484653694091DB /* NebulamPaaSBiz.framework */,
+				9F42AF84BDDE7F6D795E5C97 /* NebulaHeader.framework */,
+				83F1CCFA27DD5EA0398FDD6E /* NebulaNetwork.framework */,
+				0D512EE8B9244DC3CF15815C /* AppDoctor.framework */,
+				AB65B6DF2468783C48332C0E /* TBScanSDK.framework */,
+				8033E33BC085D0B6E2F770BD /* TBDecodeSDK.framework */,
+				5513D9D16006BDC554C34C6A /* MPShareKit.framework */,
+				CBD3CCD44726F429E3A88D94 /* Lottie.framework */,
+				4ED35DD362EB6447F32C6C8A /* APBLESDK.framework */,
+				E6D95FC6740CE1BB267016ED /* AOMPFileManager.framework */,
+				6E71237EC38ECA7A93A463A5 /* NebulaTinyAppDebug.framework */,
+				2D8299AFE2A7F72EF84971EC /* AOMPDevice.framework */,
+				0C3855605D024A83893B4660 /* APMap.framework */,
+				9861F0AE602298BC42BD98F1 /* BeeLocationPicker.framework */,
+				3B0B15F8004749B8F06B9E90 /* BeeCityPicker.framework */,
+				C11A1EA7859689D12CEB0359 /* BeePhoto.framework */,
+				F10FE846AB091461EFDC0696 /* BeePhotoBrowser.framework */,
+				82FE486C3981E637B615A013 /* BeeMediaPlayer.framework */,
+				C2A76DD24131211DB0241F2C /* BeePhotoPicker.framework */,
+				B18A2044B0DAD5630B76B473 /* MPScanCodeAdapter.framework */,
+				5478B35B004566C99B0730DE /* NebulaSDKPlugins.framework */,
+				8C1504AB79A0A83242BC037C /* TinyappService.framework */,
+				F11C149F095EBB28072D6003 /* BEEAudioUtil.framework */,
+				A42C1D8C6800BFB3B7D442C4 /* BeeCapture.framework */,
+				04CE23AA916CF9767AC94754 /* SPMTracker.framework */,
+				7026937D524C1B871921E9F0 /* APMAudioProcessing.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AD7B13D19B77B8FFCBEEBB0 /* Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				0B4F0B04E0B5AD9C56DB5728 /* MPLauncherAppDelegate.h */,
+				B6F48B636CD25179312B57D2 /* MPLauncherAppDelegate.m */,
+				D7D0E70894D7DF1051694A89 /* MPTabBarViewController.h */,
+				0ED00532CD848B048BD77A9F /* MPTabBarViewController.m */,
+				92A599D0901A41FA5FF20172 /* MobileRuntime.plist */,
+			);
+			path = Launcher;
+			sourceTree = "<group>";
+		};
+		4D19C8D225909EE100AA03AC /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				4D19C8D425909F1500AA03AC /* SecViewController.swift */,
+				4D19C8D325909F1500AA03AC /* mpast-Bridging-Header.h */,
+				EBD2FCB025931BE0005BC733 /* MainViewController.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		8D9977FFE398263F2191925F /* mpast */ = {
+			isa = PBXGroup;
+			children = (
+				960C19BD826A075B7E8812C4 /* meta.config */,
+				7C6659D51B1D7CBB97D4C91F /* yw_1222.jpg */,
+				A25DA73A4FA4E535C435907B /* mpast-mPaaS-Headers.h */,
+				A084A5657A1B3F653119432E /* mpast-Prefix.pch */,
+				0A276246AB38322BE03E882A /* mPaas */,
+				F4DECE1002144CE65682D8EE /* APMobileFramework */,
+			);
+			path = mpast;
+			sourceTree = "<group>";
+		};
+		A202D1A4841C7ACBEB3FE7E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37565272C63B32E9F05EBD79 /* SystemConfiguration.framework */,
+				863CAAF6F6E756D3CDD5AC34 /* CoreLocation.framework */,
+				273C4CBDF6F41D4FFAE9770A /* GLKit.framework */,
+				95D22401DBE93AD9CC261BBA /* CoreMotion.framework */,
+				FF78BDBB2EABDB3156D93238 /* ReplayKit.framework */,
+				E54F5FA0FAE6840BAFEFB80F /* CoreTelephony.framework */,
+				3D8AA162EF1C1834DE398ED3 /* UIKit.framework */,
+				1912A935F62A4D05A6737CD6 /* OpenGLES.framework */,
+				107B81956A271B791C48F10C /* CoreMedia.framework */,
+				ACCED4A6DD12235D77A1BEC0 /* AVFoundation.framework */,
+				B81609392A0BFB5B226A59E1 /* VideoToolbox.framework */,
+				153F104B33B75CC84E904F2F /* AudioToolbox.framework */,
+				FA9FA397D49A0D68EC039D45 /* Security.framework */,
+				5DB6D0DC537BF18D844AEE70 /* Foundation.framework */,
+				DFDCA6D67D6B3EED8D42A92A /* Accelerate.framework */,
+				6FEFAAA2697BA707123FB75C /* MessageUI.framework */,
+				6711CB2026E7EC041DCA417F /* UserNotifications.framework */,
+				635A320E0928AD000368590F /* MapKit.framework */,
+				6DA5F5BF323FDB0C5B556ECC /* MobileCoreServices.framework */,
+				FE1C73C612B3E896DDDEE3FF /* AudioToolBox.framework */,
+				300A5598C49EC1E405D22474 /* Photos.framework */,
+				A17388192452462CF9785FD1 /* CoreAudio.framework */,
+				7AA22A59202D2579BE14BEEC /* AssetsLibrary.framework */,
+				D3220AE8F8B920CA7A2DCD04 /* JavaScriptCore.framework */,
+				D46E084C3EBA57F73461BCE7 /* MediaPlayer.framework */,
+				688D6B6429F05F80BA0D6F1E /* Webkit.framework */,
+				6FA73DE8732818DBA11EF15B /* WebKit.framework */,
+				DDD971964AA7A047E6B4BF71 /* ImageIO.framework */,
+				24E3C983D78060298BC37BFF /* CoreBluetooth.framework */,
+				CC5ECF0C4296C5855B880CEF /* QuickLook.framework */,
+				09E6AFE3E5A13DE31AD2A79F /* AddressBook.framework */,
+				37293D147B56945D922B68FC /* AddressBookUI.framework */,
+				69FAFF061E0C7173660EECD5 /* Contacts.framework */,
+				D7F26DBC89661B15C190E5C0 /* ContactsUI.framework */,
+				49F9D4FE27ECE83C887686F4 /* NetworkExtension.framework */,
+				0834C4E093472885CFE1D78E /* EventKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E43E7C5D21D1077E00D9E31A = {
+			isa = PBXGroup;
+			children = (
+				E43E7C6821D1077E00D9E31A /* mpast */,
+				E43E7C6721D1077E00D9E31A /* Products */,
+				006403512CC18179B3B88BD7 /* MPaaS */,
+				A202D1A4841C7ACBEB3FE7E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E43E7C6721D1077E00D9E31A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E43E7C6621D1077E00D9E31A /* mpast.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E43E7C6821D1077E00D9E31A /* mpast */ = {
+			isa = PBXGroup;
+			children = (
+				E43E7C8621D1446400D9E31A /* mpast.entitlements */,
+				E43E7C7F21D108B900D9E31A /* Sources */,
+				E43E7C8021D108C100D9E31A /* Resources */,
+				E43E7C8321D109ED00D9E31A /* Supporting Files */,
+			);
+			path = mpast;
+			sourceTree = "<group>";
+		};
+		E43E7C7F21D108B900D9E31A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4D19C8D225909EE100AA03AC /* Swift */,
+				3AD7B13D19B77B8FFCBEEBB0 /* Launcher */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E43E7C8021D108C100D9E31A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E43E7C7221D1077E00D9E31A /* Assets.xcassets */,
+				E43E7C7421D1077E00D9E31A /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E43E7C8321D109ED00D9E31A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E43E7C7721D1077E00D9E31A /* Info.plist */,
+				E43E7C7821D1077E00D9E31A /* main.m */,
+				E43E7C8221D1095B00D9E31A /* mpast-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3B35E2F9B11B96C0B9DB957 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				8D9977FFE398263F2191925F /* mpast */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		F4DECE1002144CE65682D8EE /* APMobileFramework */ = {
+			isa = PBXGroup;
+			children = (
+				32FBF87ED8E49DF937176854 /* DTFrameworkInterface+mpast.h */,
+				FDA7631367597258434C5322 /* DTFrameworkInterface+mpast.m */,
+			);
+			path = APMobileFramework;
+			sourceTree = "<group>";
+		};
+		FDAC8BAECC0CBD16E13E893D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4EB10A37CD183618F36099DD /* AMap.bundle */,
+				35811D282E7137C02145A803 /* APMUtils.bundle */,
+				24987F6E52219C099CD504BD /* APRemoteLogging.bundle */,
+				08B4108B474E84618D400862 /* APCommonUI.bundle */,
+				597FB4A97563B44BF8E2B94F /* TTTAttributedLabel.bundle */,
+				FC1C9F111E4A2EA5C8091D0D /* MPDevHelper.bundle */,
+				5FC4844DE307B5FD96351AB2 /* MPComponentDiagnose.bundle */,
+				66FDEA5E3B77D33A15DCDB22 /* DynamicDeployment.bundle */,
+				0439E6D97DF944C0ABA59656 /* APMobileNetwork.bundle */,
+				6624D2E47C1E9AB28D36F4C5 /* APMobileFramework.bundle */,
+				B28CF25D42C4FD90799D98A2 /* NebulaSDK.bundle */,
+				1119EB9CAAB0616264238B0B /* NebulaAppManager.bundle */,
+				54AF3144DA8982CAC2B12B2C /* NebulaKernel.bundle */,
+				C6F1E30AF61EE7D33F6794A2 /* NebulaPoseidon.bundle */,
+				21C9A80E003E2F85730847EE /* NebulaBiz.bundle */,
+				F406E98FE818F39F5FD24AC8 /* APMultimedia.bundle */,
+				3AF27273E15E0B3502394055 /* APMImageProcessing.bundle */,
+				8E93E321AFF937155A9C6812 /* Texel.bundle */,
+				F2DC4BFACD9AB417B80AA06B /* APMCDNImage.bundle */,
+				CDD3F1285DC8525C06FB7915 /* NebulaLogging.bundle */,
+				9D9646C25CD5D5435E87C382 /* NebulaTinyapp.bundle */,
+				E170ADCB98760708E93D97A7 /* NebulaConfig.bundle */,
+				BD4DAD86FA2D960F5DCA49D8 /* TinyAppCommon.bundle */,
+				817DB744C3C4A47A4C20A1ED /* MPInternalPresetApps.bundle */,
+				BE0482ED6A0361D752A167CC /* MPNebulaAdapter.bundle */,
+				9B9C3BB6F99A317F25E521DA /* MPInternalPlugins.bundle */,
+				F4B57753AB824C03D76FAE7B /* AppDoctor.bundle */,
+				1936C4E9BCC8C8DC266096F7 /* TBScanSDK.bundle */,
+				69861A18A07455F7B8AF1CB2 /* TBDecodeSDK.bundle */,
+				521E002BB7C1FE1B2604292C /* WeiboSDK.bundle */,
+				E4ACF31B9D0917FAD5B553BD /* MPShareKit.bundle */,
+				9D79B38F99747D0914F9A8F3 /* AOMPDevice.bundle */,
+				35078288C0F6D4D25048018C /* BeeLocationPicker.bundle */,
+				2ABF77B8F9B2FE6302F0EBA9 /* APMap.bundle */,
+				96CA9F03501ADD4A6A56531D /* BeePhoto.bundle */,
+				36A28D3D99E8F482387F7754 /* BeePhotoBrowser.bundle */,
+				FDE1BC623C5790A9611520BB /* BeeMediaPlayer.bundle */,
+				8CCD44DF6398F600A179EC05 /* BeePhotoPicker.bundle */,
+				2111EDDFA4A0A5B1C7189B1A /* BeeCityPicker.bundle */,
+				DBB02E427F6F42894CD77E5F /* NebulaSDKPlugins.bundle */,
+				16DF752F67E16C086D137F68 /* TinyappService.bundle */,
+				377931B626E5A3EB961E6B9D /* BEEAudioUtil.bundle */,
+				B151A92140A82F9F2E54CDDF /* BeeCapture.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E43E7C6521D1077E00D9E31A /* mpast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E43E7C7C21D1077E00D9E31A /* Build configuration list for PBXNativeTarget "mpast" */;
+			buildPhases = (
+				E43E7C6221D1077E00D9E31A /* Sources */,
+				E43E7C6321D1077E00D9E31A /* Frameworks */,
+				E43E7C6421D1077E00D9E31A /* Resources */,
+				4D30B5CF2592EF5800641D0B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mpast;
+			productName = mpast;
+			productReference = E43E7C6621D1077E00D9E31A /* mpast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E43E7C5E21D1077E00D9E31A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Alibaba;
+				TargetAttributes = {
+					E43E7C6521D1077E00D9E31A = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = GX82W74B88;
+						LastSwiftMigration = 1200;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E43E7C6121D1077E00D9E31A /* Build configuration list for PBXProject "mpast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E43E7C5D21D1077E00D9E31A;
+			productRefGroup = E43E7C6721D1077E00D9E31A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E43E7C6521D1077E00D9E31A /* mpast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E43E7C6421D1077E00D9E31A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43E7C7621D1077E00D9E31A /* LaunchScreen.storyboard in Resources */,
+				E43E7C7321D1077E00D9E31A /* Assets.xcassets in Resources */,
+				0E2A0086A9D9C3F5005F96BA /* MobileRuntime.plist in Resources */,
+				CAAE5C61BCD637B381426E20 /* meta.config in Resources */,
+				AB2D1A0DABFF9C9EB19E5BCD /* yw_1222.jpg in Resources */,
+				1918437D9275D1F9346E5500 /* AMap.bundle in Resources */,
+				F8D50D9093A8EB6689DE445A /* APMUtils.bundle in Resources */,
+				376E107B89599274674F31D0 /* APRemoteLogging.bundle in Resources */,
+				669E9631107E49FB0B588B87 /* APCommonUI.bundle in Resources */,
+				B45560B3AA4864FCA7D56860 /* TTTAttributedLabel.bundle in Resources */,
+				21303436D4D765372E207F38 /* MPDevHelper.bundle in Resources */,
+				8913E2AD072D658814FE92A2 /* MPComponentDiagnose.bundle in Resources */,
+				51E4D1DF3CCBBB696019E991 /* DynamicDeployment.bundle in Resources */,
+				2059745A7391A9A1B67A524B /* APMobileNetwork.bundle in Resources */,
+				2D115B20E3F9F88B003352B3 /* APMobileFramework.bundle in Resources */,
+				9AA5DB71FFE4BC8810DECD96 /* NebulaSDK.bundle in Resources */,
+				59C439EFBCA05643140F547B /* NebulaAppManager.bundle in Resources */,
+				A378101851A8C47B58AA9D99 /* NebulaKernel.bundle in Resources */,
+				591A88499FE94D74E7865FC3 /* NebulaPoseidon.bundle in Resources */,
+				6B90D06C6266D46F3A5AE465 /* NebulaBiz.bundle in Resources */,
+				3397772ED827975A28F03498 /* APMultimedia.bundle in Resources */,
+				34D5418094CD84FCCCA7E51A /* APMImageProcessing.bundle in Resources */,
+				5E442D2E6EF4254426BEEA1D /* Texel.bundle in Resources */,
+				CCC9235AC7314C339F142892 /* APMCDNImage.bundle in Resources */,
+				C8589447F2C936C16C78BD6F /* NebulaLogging.bundle in Resources */,
+				00A92665CB3DE0B85F06DB7E /* NebulaTinyapp.bundle in Resources */,
+				2D14CCC443A1DB7D9D9AC614 /* NebulaConfig.bundle in Resources */,
+				4B0C6CB17AFDC77A6E7305FA /* TinyAppCommon.bundle in Resources */,
+				2DB4AF01DFE7BBC18876D701 /* MPInternalPresetApps.bundle in Resources */,
+				0274E6E46572729552A8AF5A /* MPNebulaAdapter.bundle in Resources */,
+				795E0C051B6D87393CF432FE /* MPInternalPlugins.bundle in Resources */,
+				87348EDB46117EC060B7C773 /* AppDoctor.bundle in Resources */,
+				034C9A8CBDD19EF7128547E4 /* TBScanSDK.bundle in Resources */,
+				DF6DA8645A6D6D956F3CED3C /* TBDecodeSDK.bundle in Resources */,
+				3B35B6B439D0BF68E0AF76B2 /* WeiboSDK.bundle in Resources */,
+				9CD4CCC8138DE45BA472460C /* MPShareKit.bundle in Resources */,
+				1A1657A02F1C2F2AC1781A7A /* AOMPDevice.bundle in Resources */,
+				EEA9647953AD00958D780A46 /* BeeLocationPicker.bundle in Resources */,
+				247795825F4BA15AD2B12209 /* APMap.bundle in Resources */,
+				0DEA1A09D01065D9A1AE168A /* BeePhoto.bundle in Resources */,
+				528759DF00F49D18E753E61C /* BeePhotoBrowser.bundle in Resources */,
+				7564CB19EADEB8F006253718 /* BeeMediaPlayer.bundle in Resources */,
+				638AB7A2612E7751DBD9A0DB /* BeePhotoPicker.bundle in Resources */,
+				7442B2B945356D2885135784 /* BeeCityPicker.bundle in Resources */,
+				9910E749284CA1C0FAF6038C /* NebulaSDKPlugins.bundle in Resources */,
+				64C13C3B99421C7D025458E0 /* TinyappService.bundle in Resources */,
+				458BDC6759A84CC5D3C7D24E /* BEEAudioUtil.bundle in Resources */,
+				F4A2713ECB9925F55480B2A1 /* BeeCapture.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E43E7C6221D1077E00D9E31A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD2FCB125931BE0005BC733 /* MainViewController.swift in Sources */,
+				E43E7C7921D1077E00D9E31A /* main.m in Sources */,
+				4D19C8D525909F1500AA03AC /* SecViewController.swift in Sources */,
+				33AB4AD83926BF0C12056DBF /* MPLauncherAppDelegate.m in Sources */,
+				7EF0A19EE3A9EBF68827F8E8 /* MPTabBarViewController.m in Sources */,
+				69061382FECBFB80C100ADA8 /* MPaaSInterface+mpast.m in Sources */,
+				5ACAF879353629E6ABE23F70 /* DTFrameworkInterface+mpast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E43E7C7421D1077E00D9E31A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E43E7C7521D1077E00D9E31A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E43E7C7A21D1077E00D9E31A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_STRICT_mpastS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E43E7C7B21D1077E00D9E31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_STRICT_mpastS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E43E7C7D21D1077E00D9E31A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = mpast/mpast.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = GX82W74B88;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*]" = ARTVC.framework;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPBaseTest/1.0.0.200228122047/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APLog/3.0.2.201208163740/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/AMapFoundationKit/1.0.0.190918200003/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MAMapKit/2.4.0.190918200148/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/AMapSearchKit/1.0.0.190918200148/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APWebP/1.0.0.200302192253/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/ARTVC/1.0.0.200813093839/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMUtils/1.0.0.201103180649/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/SocketRocket/1.0.0.200811152708/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMLogging/1.0.0.200716133857/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APRemoteLogging/1.0.0.201208163740/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/mPaas/1.0.0.201119171452/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/UTDID/1.0.2.190226130141/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APProtocolBuffers/1.0.1.200228175209/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APCommonUI/1.0.0.200729104902/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/AntUI/1.0.0.201111140724/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/Masonry/1.0.0.200406133247/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MBProgressHUD/1.0.0.200406133247/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/TTTAttributedLabel/1.0.0.200729094531/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/AntUIShellForMpass/1.0.0.200421105830/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPDataCenter/1.0.0.200302154544/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPDevHelper/1.0.0.191012164941/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPComponentDiagnose/1.0.0.191011145955/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPHotpatchSDK/1.0.0.190912135940/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/SecurityGuardSDK/2.2.3.190326110928/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APLongLinkService/1.0.0.200910205131/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMobileNetwork/1.0.0.200910205131/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APSecurityUtility/1.2.0.171012202618/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APOpenSSL/1.0.0.200228175209/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPMpaaSService/1.0.0.200907181226/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPDynamicAdapter/1.0.0.200525171627/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPMasAdapter/1.0.0.200716143211/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPMgsAdapter/1.0.0.200525171627/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPMssAdapter/1.0.0.200525171627/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPDiagnosis/1.0.0.200525171627/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPLBSAdapter/1.0.0.201102200457/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMobileLBS/1.0.1.201208134015/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/Nebula/1.0.0.200826173452/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMobileFramework/1.0.0.201111140724/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaSDK/1.0.0.201117113713/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaPoseidon/1.3.0.201208193922/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaAppManager/1.3.0.200407152548/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/SDWebImage/1.0.0.201019140541/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaKernel/1.0.0.200228142526/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaBiz/1.0.0.201208113742/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMultimedia/1.0.0.201103165157/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APConfig/1.0.0.201209103525/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MASSProxy/1.0.0.200228175209/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MASSChannel/1.0.0.200228175209/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMBeauty/1.0.0.200302181840/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMTaskManager/1.0.0.200302181840/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMCache/1.0.0.200302181840/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMImageProcessing/1.0.0.200302181840/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/Texel/1.0.0.201103185351/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMCDNImage/1.0.0.200302181840/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaAppBiz/1.0.0.200929111016/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaLogging/1.0.0.200825182326/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/AutoTracker/1.0.0.200302154544/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaTinyapp/1.0.0.200421110729/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaConfig/1.0.0.200929111016/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/TinyAppCommon/1.0.0.200716162421/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaNetwork/1.0.0.201117143907/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaSecurity/1.0.0.200907181226/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPPerformance/1.0.0.200407145306/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/TianYan/1.0.0.200608201645/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APCrashReporter/1.0.0.201204172346/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPNebulaAdapter/1.0.0.201117112551/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulamPaaSBiz/1.0.0.200907182133/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaHeader/1.0.0.200407094748/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/AppDoctor/1.0.0.191016150102/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/TBScanSDK/1.0.0.200910151733/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPShareKit/1.0.0.200909144038/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/Lottie/1.0.0.200228135004/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APBLESDK/1.0.0.200228181541/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/AOMPFileManager/1.0.0.200228173902/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaTinyAppDebug/1.0.0.200716162421/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/AOMPDevice/1.0.0.200910205131/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMap/1.1.0.200508162904/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/BeeLocationPicker/1.0.0.200407101856/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/BeeCityPicker/1.0.0.200511171746/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/BeePhoto/1.0.0.200407101856/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/BeePhotoBrowser/1.0.0.200407101856/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/BeeMediaPlayer/1.0.0.200228134728/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/BeePhotoPicker/1.0.0.200407101856/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPScanCodeAdapter/1.0.0.200827112332/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaSDKPlugins/1.0.0.201111140724/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/TinyappService/1.0.0.200609130246/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/BEEAudioUtil/1.0.0.200228120654/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/BeeCapture/1.0.0.200228120654/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/SPMTracker/1.0.0.200302192253/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMAudioProcessing/1.0.0.200302181840/**",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mpast/mpast-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/mpast/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lz",
+					"-lsqlite3",
+					"-lxml2",
+					"-lc++",
+					"-lbz2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.msl.mpaas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = tpmpaas;
+				SWIFT_OBJC_BRIDGING_HEADER = "mpast/Sources/Swift/mpast-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WARNING_CFLAGS = "-Wno-objc-protocol-method-implementation";
+			};
+			name = Debug;
+		};
+		E43E7C7E21D1077E00D9E31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = mpast/mpast.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = GX82W74B88;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPBaseTest/1.0.0.200228122047/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APLog/3.0.2.201208163740/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/AMapFoundationKit/1.0.0.190918200003/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MAMapKit/2.4.0.190918200148/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/AMapSearchKit/1.0.0.190918200148/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APWebP/1.0.0.200302192253/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/ARTVC/1.0.0.200813093839/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMUtils/1.0.0.201103180649/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/SocketRocket/1.0.0.200811152708/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMLogging/1.0.0.200716133857/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APRemoteLogging/1.0.0.201208163740/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/mPaas/1.0.0.201119171452/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/UTDID/1.0.2.190226130141/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APProtocolBuffers/1.0.1.200228175209/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APCommonUI/1.0.0.200729104902/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/AntUI/1.0.0.201111140724/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/Masonry/1.0.0.200406133247/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MBProgressHUD/1.0.0.200406133247/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/TTTAttributedLabel/1.0.0.200729094531/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/AntUIShellForMpass/1.0.0.200421105830/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPDataCenter/1.0.0.200302154544/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPDevHelper/1.0.0.191012164941/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPComponentDiagnose/1.0.0.191011145955/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPHotpatchSDK/1.0.0.190912135940/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/SecurityGuardSDK/2.2.3.190326110928/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APLongLinkService/1.0.0.200910205131/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMobileNetwork/1.0.0.200910205131/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APSecurityUtility/1.2.0.171012202618/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APOpenSSL/1.0.0.200228175209/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPMpaaSService/1.0.0.200907181226/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPDynamicAdapter/1.0.0.200525171627/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPMasAdapter/1.0.0.200716143211/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPMgsAdapter/1.0.0.200525171627/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPMssAdapter/1.0.0.200525171627/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPDiagnosis/1.0.0.200525171627/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPLBSAdapter/1.0.0.201102200457/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMobileLBS/1.0.1.201208134015/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/Nebula/1.0.0.200826173452/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMobileFramework/1.0.0.201111140724/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaSDK/1.0.0.201117113713/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaPoseidon/1.3.0.201208193922/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaAppManager/1.3.0.200407152548/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/SDWebImage/1.0.0.201019140541/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaKernel/1.0.0.200228142526/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaBiz/1.0.0.201208113742/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMultimedia/1.0.0.201103165157/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APConfig/1.0.0.201209103525/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MASSProxy/1.0.0.200228175209/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MASSChannel/1.0.0.200228175209/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMBeauty/1.0.0.200302181840/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMTaskManager/1.0.0.200302181840/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMCache/1.0.0.200302181840/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMImageProcessing/1.0.0.200302181840/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/Texel/1.0.0.201103185351/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMCDNImage/1.0.0.200302181840/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaAppBiz/1.0.0.200929111016/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaLogging/1.0.0.200825182326/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/AutoTracker/1.0.0.200302154544/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaTinyapp/1.0.0.200421110729/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaConfig/1.0.0.200929111016/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/TinyAppCommon/1.0.0.200716162421/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaNetwork/1.0.0.201117143907/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaSecurity/1.0.0.200907181226/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPPerformance/1.0.0.200407145306/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/TianYan/1.0.0.200608201645/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APCrashReporter/1.0.0.201204172346/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPNebulaAdapter/1.0.0.201117112551/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulamPaaSBiz/1.0.0.200907182133/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaHeader/1.0.0.200407094748/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/AppDoctor/1.0.0.191016150102/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/TBScanSDK/1.0.0.200910151733/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPShareKit/1.0.0.200909144038/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/Lottie/1.0.0.200228135004/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APBLESDK/1.0.0.200228181541/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/AOMPFileManager/1.0.0.200228173902/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaTinyAppDebug/1.0.0.200716162421/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/AOMPDevice/1.0.0.200910205131/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMap/1.1.0.200508162904/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/BeeLocationPicker/1.0.0.200407101856/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/BeeCityPicker/1.0.0.200511171746/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/BeePhoto/1.0.0.200407101856/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/BeePhotoBrowser/1.0.0.200407101856/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/BeeMediaPlayer/1.0.0.200228134728/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/BeePhotoPicker/1.0.0.200407101856/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/MPScanCodeAdapter/1.0.0.200827112332/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaSDKPlugins/1.0.0.201111140724/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/TinyappService/1.0.0.200609130246/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/BEEAudioUtil/1.0.0.200228120654/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/BeeCapture/1.0.0.200228120654/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/SPMTracker/1.0.0.200302192253/**",
+					"/Users/Shared/.mpaaskit_sdk/repo/frameworks/APMAudioProcessing/1.0.0.200302181840/**",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mpast/mpast-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/mpast/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lz",
+					"-lsqlite3",
+					"-lxml2",
+					"-lc++",
+					"-lbz2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.msl.mpaas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = tpmpaas;
+				SWIFT_OBJC_BRIDGING_HEADER = "mpast/Sources/Swift/mpast-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WARNING_CFLAGS = "-Wno-objc-protocol-method-implementation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E43E7C6121D1077E00D9E31A /* Build configuration list for PBXProject "mpast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43E7C7A21D1077E00D9E31A /* Debug */,
+				E43E7C7B21D1077E00D9E31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E43E7C7C21D1077E00D9E31A /* Build configuration list for PBXNativeTarget "mpast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E43E7C7D21D1077E00D9E31A /* Debug */,
+				E43E7C7E21D1077E00D9E31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E43E7C5E21D1077E00D9E31A /* Project object */;
+}
