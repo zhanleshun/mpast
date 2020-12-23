@@ -25,17 +25,21 @@
         NSArray *baseImgs = [NSArray arrayWithObjects:
                              @"TabBar_HomeBar",
                              @"TabBar_Discovery",
+                             @"TabBar_HomeBar",
                              nil];
         NSArray *selectImgs = [NSArray arrayWithObjects:
                                @"TabBar_HomeBar_Sel",
                                @"TabBar_Discovery_Sel",
+                               @"TabBar_HomeBar_Sel",
                                nil];
         
         MainViewController* tab1ViewController = [[MainViewController alloc] init];
         SecViewController* tab2ViewController = [[SecViewController alloc] init];
+        SecViewController* tab3ViewController = [[LSViewController alloc] init];
+
         
-        NSArray *navArray = @[tab1ViewController, tab2ViewController];
-        NSArray *titles = @[@"主要功能", @"次要功能"];
+        NSArray *navArray = @[tab1ViewController, tab2ViewController,tab3ViewController];
+        NSArray *titles = @[@"主要功能", @"次要功能", @"My"];
         for (int i = 0; i < [navArray count]; i ++)
         {
             UIImage *bImg = [UIImage imageNamed:baseImgs[i]];
