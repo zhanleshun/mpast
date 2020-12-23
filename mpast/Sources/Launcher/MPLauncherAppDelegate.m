@@ -54,9 +54,12 @@
         }
         
         self.rootVC = [[MPTabBarViewController alloc] init];
+
         self.rootVC.viewControllers = navArray;
         self.rootVC.selectedIndex = 0;
         [self.rootVC.delegate tabBarController:self.rootVC didSelectViewController:tab1ViewController];
+        
+        [MPNebulaAdapterInterface initNebula];
     }
     return self;
 }
