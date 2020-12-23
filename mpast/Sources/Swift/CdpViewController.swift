@@ -27,7 +27,7 @@ import Foundation
         // 投屏投放
         let windowButton = UIButton(type: UIButton.ButtonType.system)
         windowButton.frame = CGRect(x: 60,y: 160,width: 300,height: 50)
-        windowButton.setTitle("返回", for: UIControl.State())
+        windowButton.setTitle("投屏投放", for: UIControl.State())
         windowButton.backgroundColor = UIColor.orange
         windowButton.setTitleColor(UIColor.white, for: UIControl.State())
         self.view.addSubview(windowButton)//把button添加到当前视图

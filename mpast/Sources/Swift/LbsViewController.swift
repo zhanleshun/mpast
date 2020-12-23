@@ -38,11 +38,53 @@ import UIKit
     
     @objc func lbsClick(){
         print("LbsViewController lbsClick... ",Date())
+        let config = MPLBSConfiguration()
+        config.cacheTimeInterval = APCoreLocationCacheAvaliable.default // 定位接受的缓存时间，单位秒
+        config.desiredAccuracy = CLLocationAccuracy.init(500)           // 定位期望精度，单位米
+        
+        let manager = MPLBSLocationManager.init(configuration: config)
+//        manager.requestLocationNeedReGeocode("NO",)
+        manager.requestLocationNeedReGeocode(false, completionHandler: getLoction)
         
     }
     
+    
     @objc func rtnClick(){
         self.navigationController?.popViewController(animated: true)
+    }
+    
+    @objc func getLoction(success: Bool, info: MPLBSLocationInfo, error: Error){
+        if(success){
+            let location = info.location
+            print("定位成功：",location)
+            let longitude = location.coordinate.longitude // 经度
+            let latitude = location.coordinate.latitude   // 纬度
+            let accuracy = location.horizontalAccuracy    // 精确度
+//            let isHighAccuracy = location.ap_lbs_is_high_accuracy_close // 是否高精度
+            
+            let msg = String(format: "经度: %.5f， \n维度: %.5f, \n精确度: %.3f", longitude,latitude,accuracy)
+            let alertController = UIAlertController(title: "定位", message: msg, preferredStyle: UIAlertController.Style.alert)
+            let cancelAction = UIAlertAction(title: "取消", style: UIAlertAction.Style.cancel, handler: nil )
+            let okAction = UIAlertAction(title: "确定", style: UIAlertAction.Style.default) { (ACTION) in
+                print("确定")
+            }
+            alertController.addAction(cancelAction);
+            alertController.addAction(okAction);
+            self.present(alertController, animated: true, completion: nil)
+            
+        }else{
+            print("定位失败：",error.localizedDescription)
+            let msg = String(format: "定位失败： %s", error.localizedDescription)
+            let alertController = UIAlertController(title: "定位", message: msg, preferredStyle: UIAlertController.Style.alert)
+            let cancelAction = UIAlertAction(title: "取消", style: UIAlertAction.Style.cancel, handler: nil )
+            let okAction = UIAlertAction(title: "确定", style: UIAlertAction.Style.default) { (ACTION) in
+                print("确定")
+            }
+            alertController.addAction(cancelAction);
+            alertController.addAction(okAction);
+            self.present(alertController, animated: true, completion: nil)
+        }
+        
     }
     
 }

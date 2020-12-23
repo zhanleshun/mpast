@@ -10,9 +10,7 @@ import Foundation
 import UIKit
 
 @objc class LSViewController : UIViewController {
-    
-    var lbsView = LbsViewController()
-    
+        
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -68,25 +66,33 @@ import UIKit
     
     @objc func cdpJump() {
         print("用户点击了 cdpJump 按钮")
+        let cdpView = CdpViewController();
+        self.navigationController?.pushViewController(cdpView, animated: false)
     }
     
     @objc func hotfixJump() {
         print("用户点击了 hotfixJump 按钮")
+        let hotfixView = HotfixViewController();
+        self.navigationController?.pushViewController(hotfixView, animated: false)
     }
     
     @objc func rtcJump() {
         print("用户点击了 rtcJump 按钮")
+        let rtcView = RtcViewController();
+        self.navigationController?.pushViewController(rtcView, animated: false)
     }
     
     
     @objc func lbsJump() {
         print("用户点击了 定位lbsClick 按钮")
-        self.lbsView = LbsViewController();
-        self.navigationController?.pushViewController(self.lbsView, animated: false)
+        let lbsView = LbsViewController();
+        self.navigationController?.pushViewController(lbsView, animated: false)
     }
     
     @objc func pushJump() {
         print("用户点击了 pushJump 按钮")
+        let pushView = PushViewController();
+        self.navigationController?.pushViewController(pushView, animated: false)
     }
 
 
