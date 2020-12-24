@@ -74,7 +74,8 @@
 #pragma mark alert delegate
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
     // 持续扫码
-    [self.scanVC resumeScan];
+    //[self.scanVC resumeScan];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 @end
