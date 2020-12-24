@@ -77,6 +77,8 @@
 		4B72BAE87D97A13563222D28 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22190160F141C15927F93C46 /* AMapSearchKit.framework */; };
 		4CE1BA4CABD82A7667AE7563 /* APOpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8CDFCB2299658240F69002 /* APOpenSSL.framework */; };
 		4D19C8D525909F1500AA03AC /* SecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D19C8D425909F1500AA03AC /* SecViewController.swift */; };
+		4D30B5F12594864500641D0B /* MPScanDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D30B5EC2594864500641D0B /* MPScanDemoVC.m */; };
+		4D30B5F22594864500641D0B /* MPScanCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D30B5ED2594864500641D0B /* MPScanCodeViewController.m */; };
 		51E4D1DF3CCBBB696019E991 /* DynamicDeployment.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 66FDEA5E3B77D33A15DCDB22 /* DynamicDeployment.bundle */; };
 		528759DF00F49D18E753E61C /* BeePhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36A28D3D99E8F482387F7754 /* BeePhotoBrowser.bundle */; };
 		56165C452DDE3C070C9D28DF /* MPHotpatchSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB52F5B25D006C7A18DF810 /* MPHotpatchSDK.framework */; };
@@ -263,6 +265,11 @@
 		4A6CCEEAC8B525FA1C17515E /* MPLBSAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MPLBSAdapter.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MPLBSAdapter/1.0.0.201102200457/MPLBSAdapter.framework; sourceTree = "<absolute>"; };
 		4D19C8D325909F1500AA03AC /* mpast-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mpast-Bridging-Header.h"; sourceTree = "<group>"; };
 		4D19C8D425909F1500AA03AC /* SecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecViewController.swift; sourceTree = "<group>"; };
+		4D30B5EC2594864500641D0B /* MPScanDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPScanDemoVC.m; sourceTree = "<group>"; };
+		4D30B5ED2594864500641D0B /* MPScanCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPScanCodeViewController.m; sourceTree = "<group>"; };
+		4D30B5EE2594864500641D0B /* MPScanDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPScanDemoVC.h; sourceTree = "<group>"; };
+		4D30B5EF2594864500641D0B /* MPScanCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPScanCodeViewController.h; sourceTree = "<group>"; };
+		4D30B5F02594864500641D0B /* MPScanDemoDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPScanDemoDef.h; sourceTree = "<group>"; };
 		4E5C8FD6FCBE83D357595C98 /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocket.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/SocketRocket/1.0.0.200811152708/SocketRocket.framework; sourceTree = "<absolute>"; };
 		4EB10A37CD183618F36099DD /* AMap.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
 		4ED35DD362EB6447F32C6C8A /* APBLESDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APBLESDK.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/APBLESDK/1.0.0.200228181541/APBLESDK.framework; sourceTree = "<absolute>"; };
@@ -706,6 +713,18 @@
 			path = Swift;
 			sourceTree = "<group>";
 		};
+		4D30B5EB2594864500641D0B /* Objc */ = {
+			isa = PBXGroup;
+			children = (
+				4D30B5EC2594864500641D0B /* MPScanDemoVC.m */,
+				4D30B5ED2594864500641D0B /* MPScanCodeViewController.m */,
+				4D30B5EE2594864500641D0B /* MPScanDemoVC.h */,
+				4D30B5EF2594864500641D0B /* MPScanCodeViewController.h */,
+				4D30B5F02594864500641D0B /* MPScanDemoDef.h */,
+			);
+			path = Objc;
+			sourceTree = "<group>";
+		};
 		8D9977FFE398263F2191925F /* mpast */ = {
 			isa = PBXGroup;
 			children = (
@@ -794,6 +813,7 @@
 		E43E7C7F21D108B900D9E31A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				4D30B5EB2594864500641D0B /* Objc */,
 				4D19C8D225909EE100AA03AC /* Swift */,
 				3AD7B13D19B77B8FFCBEEBB0 /* Launcher */,
 			);
@@ -1013,6 +1033,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D30B5F22594864500641D0B /* MPScanCodeViewController.m in Sources */,
 				EBD2FCCB2593675A005BC733 /* RtcViewController.swift in Sources */,
 				EBD2FCCF259367E7005BC733 /* PushViewController.swift in Sources */,
 				EBD2FCC92593662A005BC733 /* CdpViewController.swift in Sources */,
@@ -1026,6 +1047,7 @@
 				EBD2FCC7259365C8005BC733 /* LbsViewController.swift in Sources */,
 				5ACAF879353629E6ABE23F70 /* DTFrameworkInterface+mpast.m in Sources */,
 				EBD2FCC6259365C8005BC733 /* LSViewController.swift in Sources */,
+				4D30B5F12594864500641D0B /* MPScanDemoVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
