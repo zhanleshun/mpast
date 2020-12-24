@@ -176,6 +176,12 @@
 		E43E7C7621D1077E00D9E31A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43E7C7421D1077E00D9E31A /* LaunchScreen.storyboard */; };
 		E43E7C7921D1077E00D9E31A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E43E7C7821D1077E00D9E31A /* main.m */; };
 		EBD2FCB125931BE0005BC733 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2FCB025931BE0005BC733 /* MainViewController.swift */; };
+		EBD2FCC6259365C8005BC733 /* LSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2FCC4259365C8005BC733 /* LSViewController.swift */; };
+		EBD2FCC7259365C8005BC733 /* LbsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2FCC5259365C8005BC733 /* LbsViewController.swift */; };
+		EBD2FCC92593662A005BC733 /* CdpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2FCC82593662A005BC733 /* CdpViewController.swift */; };
+		EBD2FCCB2593675A005BC733 /* RtcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2FCCA2593675A005BC733 /* RtcViewController.swift */; };
+		EBD2FCCD2593679D005BC733 /* HotfixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2FCCC2593679D005BC733 /* HotfixViewController.swift */; };
+		EBD2FCCF259367E7005BC733 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD2FCCE259367E7005BC733 /* PushViewController.swift */; };
 		EBDF1271259318B700D94C4A /* ARTVC.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5017782E56C0442829EA0FC6 /* ARTVC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EC189AA5E1B6A3903C759BCD /* APMobileNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A34BB3C7A684B4CBA8D031 /* APMobileNetwork.framework */; };
 		EEA9647953AD00958D780A46 /* BeeLocationPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 35078288C0F6D4D25048018C /* BeeLocationPicker.bundle */; };
@@ -390,6 +396,12 @@
 		E6D95FC6740CE1BB267016ED /* AOMPFileManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AOMPFileManager.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/AOMPFileManager/1.0.0.200228173902/AOMPFileManager.framework; sourceTree = "<absolute>"; };
 		E99A6377095816D41083FF39 /* NebulaSecurity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NebulaSecurity.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/NebulaSecurity/1.0.0.200907181226/NebulaSecurity.framework; sourceTree = "<absolute>"; };
 		EBD2FCB025931BE0005BC733 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EBD2FCC4259365C8005BC733 /* LSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSViewController.swift; sourceTree = "<group>"; };
+		EBD2FCC5259365C8005BC733 /* LbsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LbsViewController.swift; sourceTree = "<group>"; };
+		EBD2FCC82593662A005BC733 /* CdpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CdpViewController.swift; sourceTree = "<group>"; };
+		EBD2FCCA2593675A005BC733 /* RtcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RtcViewController.swift; sourceTree = "<group>"; };
+		EBD2FCCC2593679D005BC733 /* HotfixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotfixViewController.swift; sourceTree = "<group>"; };
+		EBD2FCCE259367E7005BC733 /* PushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
 		EE10D8AF97772E040C4E7C3B /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/MBProgressHUD/1.0.0.200406133247/MBProgressHUD.framework; sourceTree = "<absolute>"; };
 		F10FE846AB091461EFDC0696 /* BeePhotoBrowser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BeePhotoBrowser.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/BeePhotoBrowser/1.0.0.200407101856/BeePhotoBrowser.framework; sourceTree = "<absolute>"; };
 		F11C149F095EBB28072D6003 /* BEEAudioUtil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BEEAudioUtil.framework; path = /Users/Shared/.mpaaskit_sdk/repo/frameworks/BEEAudioUtil/1.0.0.200228120654/BEEAudioUtil.framework; sourceTree = "<absolute>"; };
@@ -681,9 +693,15 @@
 		4D19C8D225909EE100AA03AC /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				4D19C8D425909F1500AA03AC /* SecViewController.swift */,
 				4D19C8D325909F1500AA03AC /* mpast-Bridging-Header.h */,
 				EBD2FCB025931BE0005BC733 /* MainViewController.swift */,
+				4D19C8D425909F1500AA03AC /* SecViewController.swift */,
+				EBD2FCC4259365C8005BC733 /* LSViewController.swift */,
+				EBD2FCC82593662A005BC733 /* CdpViewController.swift */,
+				EBD2FCCC2593679D005BC733 /* HotfixViewController.swift */,
+				EBD2FCCA2593675A005BC733 /* RtcViewController.swift */,
+				EBD2FCC5259365C8005BC733 /* LbsViewController.swift */,
+				EBD2FCCE259367E7005BC733 /* PushViewController.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -995,13 +1013,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBD2FCCB2593675A005BC733 /* RtcViewController.swift in Sources */,
+				EBD2FCCF259367E7005BC733 /* PushViewController.swift in Sources */,
+				EBD2FCC92593662A005BC733 /* CdpViewController.swift in Sources */,
+				EBD2FCCD2593679D005BC733 /* HotfixViewController.swift in Sources */,
 				EBD2FCB125931BE0005BC733 /* MainViewController.swift in Sources */,
 				E43E7C7921D1077E00D9E31A /* main.m in Sources */,
 				4D19C8D525909F1500AA03AC /* SecViewController.swift in Sources */,
 				33AB4AD83926BF0C12056DBF /* MPLauncherAppDelegate.m in Sources */,
 				7EF0A19EE3A9EBF68827F8E8 /* MPTabBarViewController.m in Sources */,
 				69061382FECBFB80C100ADA8 /* MPaaSInterface+mpast.m in Sources */,
+				EBD2FCC7259365C8005BC733 /* LbsViewController.swift in Sources */,
 				5ACAF879353629E6ABE23F70 /* DTFrameworkInterface+mpast.m in Sources */,
+				EBD2FCC6259365C8005BC733 /* LSViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
