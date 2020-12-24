@@ -3,7 +3,7 @@
 //  mpast
 //
 //  Created by zhouhong on 2020/12/21.
-//  Copyright © 2020 Alibaba. All rights reserved.
+//  Copyright © 2020 MSL. All rights reserved.
 //
 
 #import <APMobileFramework/DTFrameworkInterface.h>

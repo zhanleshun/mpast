@@ -54,8 +54,6 @@
         self.rootVC.viewControllers = navArray;
         self.rootVC.selectedIndex = 0;
         [self.rootVC.delegate tabBarController:self.rootVC didSelectViewController:tab1ViewController];
-        
-        [MPNebulaAdapterInterface initNebula];
     }
     return self;
 }
@@ -81,7 +79,7 @@
 
 - (void)applicationDidFinishLaunching:(DTMicroApplication *)application
 {
-    
+   
 }
 
 - (void)application:(DTMicroApplication *)application willResumeWithOptions:(NSDictionary *)launchOptions
